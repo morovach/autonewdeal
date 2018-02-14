@@ -12,6 +12,31 @@ msgstr ""
 "Last-Translator: \n"
 "Language: fr\n"
 
+#. Text in echo
+#: automotive-deluxe/sidebars/register-sidebars.php:300
+msgid "Monthly Payment:  "
+msgstr "Mensuellement: "
+
+#. Text in echo
+#: automotive-deluxe/sidebars/register-sidebars.php:290
+msgid "Years"
+msgstr "(Années)"
+
+#. Text in echo
+#: automotive-deluxe/sidebars/register-sidebars.php:270
+msgid "Down Payment: "
+msgstr "Acompte: "
+
+#. Text in echo
+#: automotive-deluxe/sidebars/register-sidebars.php:260
+msgid "Purchase price: "
+msgstr "Prix d'achat: "
+
+#. Text in echo
+#: automotive-deluxe/results.php:170
+msgid "Sort By: "
+msgstr "Trier par:"
+
 #. Text in function
 #: automax_deluxe/assets/init/metaboxes.php:157
 msgid "Enter vehicle cruise control."
@@ -503,11 +528,6 @@ msgstr ""
 #: automax_deluxe/functions.php:1658
 msgid "Diesel Engines"
 msgstr "Moteur Diesel"
-
-#. Text in echo
-#: automax_deluxe/financing.php:189
-msgid "Down Payment:  "
-msgstr "Acompte"
 
 #. Text in function
 #: automax_deluxe/functions/user-post-type.php:97
@@ -1349,7 +1369,7 @@ msgstr "Titre de l'annonce:"
 #. Text in echo
 #: automax_deluxe/financing.php:206
 msgid "Loan Term: "
-msgstr "Durée du prêt:"
+msgstr "Durée: "
 
 #. Text in function
 #: automax_deluxe/functions.php:1658
@@ -1439,11 +1459,6 @@ msgstr "Minivans et Vans"
 #: automax_deluxe/cdform.php:356 automax_deluxe/form-new.php:350
 msgid "Model"
 msgstr "Modèle"
-
-#. Text in echo
-#: automax_deluxe/financing.php:257
-msgid "Monthly Payment: "
-msgstr "Paiement mensuel:"
 
 #. Text in echo
 #: automax_deluxe/cdform.php:716 automax_deluxe/form-new.php:710
@@ -1775,11 +1790,6 @@ msgstr ""
 #, fuzzy
 msgid "Property Photos"
 msgstr "Propriété des photos"
-
-#. Text in echo
-#: automax_deluxe/financing.php:183
-msgid "Purchase Price:  "
-msgstr "Prix d'achat:"
 
 #. Text in echo
 #: automax_deluxe/financing.php:179

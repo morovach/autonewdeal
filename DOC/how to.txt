@@ -1,0 +1,90 @@
+- Ajouter un shortcode en php:
+<?php echo do_shortcode('[contact-form-7 id="68" title="Formulaire de contact 1"]');?> 
+Cette fonction permet de mettre un shortcode vers un formulaire de contact par exemple.
+
+- Child theme:
+Pour pouvoir modifier le thème sans risquer de se faire sur-écrire lors d'une mise à jour j'ai crée un thème enfant.
+Cela se fait grace au CSS
+/*
+Theme Name: Automotive Premium Child
+Author: Jeremie Cohen
+Template: automotive-premium
+Description: Professional WordPress Car Dealership Theme Child Theme
+Version: 1.0.0
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: three-columns, custom-header, custom-menu, featured-images, translation-ready
+*/
+Tous les fichiers insérés dans le thème enfant vont alors surécrire ceux du thème parent.
+On peut aussi y rajouter des bouts de CSS et des images sans risquer de tout corrompre.
+
+C'est aussi comme ça que j'ai pu mettre la langue en francaise sans risquer de la perdre si jamais le thème reçoit une mise à jour.
+
+
+
+- Les bandeaux:
+
+Les bandeaux sont insérés dans arrivals.php
+<div class="status-tag"><?php echo $fields['statustag'];?></div><?php } else {echo '';}?>			
+Cette ligne permet d'assigner une class qui prend la valeur status tag.
+Ainsi, si la voiture a "new", elle aura comme attribut: <div class ="new">.
+Ensuite, il faut aller setter le CSS comme il faut:
+
+Pour changer le bandeau: NEW, etc...
+Il faut aller dans le style.css et ajouter dans la partie 
+
+
+/********************************************************************/
+/***  Ribbons ***/
+.Used {
+    background: url(assets/images/common/used-ribbon.png) left top no-repeat;
+    display: inline-block;
+    position: absolute;
+    top: 13px;
+    left: 23px;
+    height: 99px;
+    width: 99px;
+    z-index: 444;
+}
+
+Mettre une nouvelle image.
+Il faut aussi, ajouter l'image dans le bon répertoire assets/images/common/used-ribbon.png
+
+Les champs possibles sont:
+(En anglais:)
+New 
+Sold
+Reduced
+Sale
+
+(En francais):
+Neuve
+Solde
+Vendue
+
+
+
+
+
+- Créer un widget ou une sidebar:
+https://codex.wordpress.org/Widgets_API
+Pour créer un widget:
+Il faut déclarer une class widget qui implémente WP_Widget
+        class Find_By_Type extends WP_Widget
+        {
+            public	function __construct(){
+                    parent::__construct( 'find_by_type', 'Find Vehicles by Type' );
+            }
+Puis il faut déclarer les fonction widget / update et form    
+
+Il faut enfin enregister la classe du widget
+register_widget( 'Foo_Widget' ); pour pouvoir s'en servir dans les "sidebars" ou ailleurs.
+
+
+-Changer Les images pour les catégories de voiture:
+Pour cela il faut aller dans "find-car.php" et il faut:
+1) Remplacer la partie php bloginfo('template_url') par ?php  bloginfo('stylesheet_directory') pour lui dire d'aller chercher dans le theme child les images.
+2) Mettre la nouvelle image dans /assets/images/product-images/
+3) Dans les options du thème dans wordpress (dans "traduction" aujourd'hui), il faut aller dans 
+Type de véhicule:	"option N" et remplacer par le meme nom que celui choisi dans find-car.php pour le nom de l'image.
+(En gros si on met une image de camionnette dans option6, il faut que dans option6 on mette bien le nom camionnette)
