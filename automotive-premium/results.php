@@ -221,7 +221,7 @@ if ( 'user_listing' == get_post_type($post->ID) ) {
 			foreach ($attachments as $attachment) {
 				echo '<div class="col-sm-5 col-results">'.wp_get_attachment_image($attachment->ID, 'large',false,array('class' =>'img-responsive'));
                 if (!empty($fields['statustag'])){ ?>
-							<div class="status-tag"><?php echo $fields['statustag'];?></div><?php } else {echo '';}
+							<div  class=<?php echo $fields['statustag'];?>></div><?php } else {echo '';}
                 echo '</div>';
 				}
 			} ?>
@@ -231,7 +231,7 @@ if ( 'user_listing' == get_post_type($post->ID) ) {
 	echo '<div class="col-sm-5 col-results">';
 	echo gorilla_img ($post->ID,'large');
     if (!empty($fields['statustag']) && $fields['statustag'] != 'None' ){ ?>
-							<div class="status-tag"><?php echo $fields['statustag'];?></div><?php } else {echo '';}
+							<div class=<?php echo $fields['statustag'];?>></div><?php } else {echo '';}
 
 	echo '</div>';
 }?><div class="col-sm-4 result-detail-wrapper col-results">  <!-- result detail wrapper -->
