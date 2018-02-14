@@ -1,0 +1,2637 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: AUTOMAX\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: Gorilla Themes <support@gorillathemes.com>\n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 2.0.6\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Last-Translator: \n"
+"Language: fr\n"
+
+#. Text in function
+#: automax_deluxe/assets/init/metaboxes.php:157
+msgid "Enter vehicle cruise control."
+msgstr "Entrer le régulateurasdasdasd."
+
+#. Text in echo
+#: automax_deluxe/results.php:679
+msgid "Model (Select Make First)"
+msgstr "Modèle (Sélectionnez une marque)"
+
+#. Text in echo
+#: automax_deluxe/cdform.php:359 automax_deluxe/form-new.php:353
+msgid " (select make first)"
+msgstr "(Sélectionnez une marque)"
+
+#. Text in function
+#: automax_deluxe/archive.php:14
+msgid " Archive"
+msgstr "Archive"
+
+#. Text in function
+#: automax_deluxe/category.php:14
+msgid " Category"
+msgstr "Catégorie"
+
+#. Text in echo
+#: automax_deluxe/functions.php:537
+msgid " Hide in Search Module."
+msgstr "Cacher aux modules de recherches"
+
+#. Text in function
+#: automax_deluxe/functions/styles.php:16
+msgid " Options"
+msgstr " Options"
+
+#. Text in function
+#: automax_deluxe/single-gtcd.php:279 automax_deluxe/includes/form.php:146
+msgid " Stock# "
+msgstr " Stock# "
+
+#. Text in echo
+#: automax_deluxe/functions/menu-and-settings-page.php:72
+msgid " and insert the alphanumeric key in the input field."
+msgstr "et insérer la clé alphanumérique dans le champ en entrée"
+
+#. Text in echo
+#: automax_deluxe/functions/file/includes/import.php:68
+msgid " has successfully imported "
+msgstr "a été importé avec succès"
+
+#. Text in echo
+#: automax_deluxe/functions/file/includes/import.php:68
+#, fuzzy
+msgid " listings as "
+msgstr "listé en tant que"
+
+#. Text in echo
+#: automax_deluxe/functions/file/includes/import.php:69
+msgid " listings that were skipped because they already exist from a previous import."
+msgstr "les annonces qui ont été ignorées car elles existent déjà dans un import précédent "
+
+#. Text in echo
+#: automax_deluxe/functions/file/includes/import.php:68
+msgid " status under Inventory."
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/functions/menu-and-settings-page.php:72
+msgid " to obtain the API Key"
+msgstr "pour avoir la clé API"
+
+#. Text in echo
+#: automax_deluxe/functions/file/includes/import.php:
+msgid " to see your imported listings."
+msgstr "pour voir les annonces importées"
+
+#. Text in function
+#: automax_deluxe/single-gtcd.php:279
+msgid " with Stock Number #"
+msgstr "avec le numéro de Stock #"
+
+#. Text in function
+#: automax_deluxe/comments.php:17
+msgid "% Comments"
+msgstr "% Commentaires"
+
+#. Text in function
+#: automax_deluxe/functions.php:576
+msgid "%s Theme Options"
+msgstr "% Options du thème"
+
+#. Text in echo
+#: automax_deluxe/widgets/theme-widgets.php:533
+#: automax_deluxe/functions/search-code.php:322
+#: automax_deluxe/includes/arrivals.php:36
+msgid "0"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/functions/file/includes/upload.php:3
+msgid "1. Select the type of file to import."
+msgstr "1. Sélectionner le type de fichier à importer"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "1990"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/functions/file/includes/upload.php:15
+msgid "2. Select your file and click Upload File"
+msgstr "2. Sélectionnez votre fichier et cliquez sur Upload File"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "2015"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/functions/file/includes/upload.php:30
+msgid "3. Click continue to map your fields."
+msgstr "3. Cliquez pour continuer à mapper les champs"
+
+#. Text in echo
+#: automax_deluxe/404.php:9
+msgid "404 Page Not Found!"
+msgstr "404 Page non trouvée!"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "4WD/AWD"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/widgets/theme-widgets.php:265
+msgid "<strong>Enter Calculator title:</strong> "
+msgstr "<strong>Entrez le titre du calculateur:</strong> "
+
+#. Text in echo
+#: automax_deluxe/widgets/theme-widgets.php:806
+msgid "<strong>Enter Vehicle Specifications title:</strong> <br/>(leave empty to hide) "
+msgstr "<strong>Entrez le titre des Spécifications du véhicule:</strong> <br/>(laisser vide pour cacher) "
+
+#. Text in echo
+#: automax_deluxe/widgets/theme-widgets.php:826
+msgid "<strong>Enter title for fourth module:</strong> <br/>(leave empty to hide)"
+msgstr "<strong>Entrer le titre pour le 4eme module:</strong> <br/>(Laisser vide pour cacher)"
+
+#. Text in echo
+#: automax_deluxe/widgets/theme-widgets.php:812
+msgid "<strong>Enter title for second module:</strong> <br/>(leave empty to hide)"
+msgstr "<strong>Entrer le titre pour le second module:</strong> <br/>(Laisser vide pour cacher)"
+
+#. Text in echo
+#: automax_deluxe/functions/menu-and-settings-page.php:65
+msgid "API Key Updated!"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/widgets/theme-widgets.php:1325
+msgid "AUTOMAX Contact Form in The Sidebar"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/widgets/theme-widgets.php:1325
+msgid "AUTOMAX Welcome Widget"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/footer.php:9
+msgid "AUTOMAX by "
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/widgets/theme-widgets.php:269
+msgid "AUTOMAX: Featured Vehicles Module"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:1451
+msgid "Add - Delete Images"
+msgstr "Ajouter - Supprimer Images"
+
+#. Text in function
+#: automax_deluxe/functions/custom-taxonomies.php:1
+msgid "Add New "
+msgstr "Ajouter nouveau"
+
+#. Text in function
+#: automax_deluxe/functions/user-post-type.php:1
+#: automax_deluxe/functions/gtcd-post-type.php:1
+msgid "Add New Vehicle"
+msgstr "Ajouter nouveau véhicule"
+
+#. Text in echo
+#: automax_deluxe/widgets/theme-widgets.php:1392
+msgid "Address: "
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/custom-taxonomies.php:1
+msgid "All "
+msgstr "Tout"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Anti Theft Alarm System"
+msgstr "Alarme anti-vol"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Antilock Braking System"
+msgstr "Système ABS"
+
+#. Text in echo
+#: automax_deluxe/functions/search-code.php:154
+msgid "Any price"
+msgstr "N'importe quel prix"
+
+#. Text in function
+#: automax_deluxe/functions.php:1280
+msgid "Appearance"
+msgstr "Apparence"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Audio Control on Steering Wheel"
+msgstr "Contrôle audio sur la molette arrière"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Auto Dimming Rearview Mirror"
+msgstr "Polarisation automatique du rétroviseur"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Automatic"
+msgstr "Automatique"
+
+#. Text in echo
+#: automax_deluxe/widgets/theme-widgets.php:1322
+msgid "Automatically add paragraphs"
+msgstr "Ajouter les paragraphes automatiquement"
+
+#. Text in echo
+#: automax_deluxe/functions/styles.php:33
+msgid "Automotive Color Selection"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/functions/file/includes/map.php:112
+msgid "Automotive Meta Fields"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/functions/file/includes/map.php:181
+msgid "Automotive Photo Gallery"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/functions/file/includes/map.php:83
+msgid "Automotive Post Title"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/functions/menu-and-settings-page.php:98
+msgid "Automotive Search Options Setup"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/functions/file/includes/map.php:145
+msgid "Automotive Taxonomy"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/file/functions.php:1
+msgid "Automotive XML & CSV File Importer"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/functions/file/index.php:5
+msgid "Automotive XML-CSV Batch Vehicle Import"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/footer-form.php:3 automax_deluxe/footer.php:18
+msgid "Automotive by"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/functions/search-code.php:373 automax_deluxe/taxonomy.php:57
+msgid "BACK TO TOP"
+msgstr "Retourner en haut"
+
+#. Text in echo
+#: automax_deluxe/functions/styles.php:39
+msgid "Black"
+msgstr "Noir"
+
+#. Text in echo
+#: automax_deluxe/functions/styles.php:38
+msgid "Blue"
+msgstr "Bleu"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Bore"
+msgstr "Cylindre"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Bore:"
+msgstr "Cylindre:"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Braking Assist"
+msgstr "Assistance de freinage"
+
+#. Text in echo
+#: automax_deluxe/functions/file/includes/upload.php:8
+msgid "CSV"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Camshaft"
+msgstr "Arbre à cames"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Camshaft:"
+msgstr "Arbre à cames:"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Carfax Parner ID"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Carfax Partner ID:"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Cargo Area Power Outlet"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/functions/meta-boxes-code.php:791
+msgid "Click here to setup your VIN Decoder"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/cdform.php:721 automax_deluxe/form-new.php:715
+msgid "Click the \"More photos\" link to add all your images, all photos will be automatically resized to fit the property listing layout. We recommend that you upload photos in full resolution for better results."
+msgstr "Cliquez sur le lien \"Plus de photos\" pour ajouter toutes vos photos et elles seront automatiquement ajouté, redimensionnées pour s'adapter parfaitement au layout. Nous recommandons de les uploader en résolution maximum."
+
+#. Text in echo
+#: automax_deluxe/contact-us.php:188 automax_deluxe/functions.php:1280
+#: automax_deluxe/single-gtcd.php:135 automax_deluxe/includes/form.php:1
+msgid "Comments"
+msgstr "Commentaires"
+
+#. Text in echo
+#: automax_deluxe/comments.php:31
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Compression Ratio"
+msgstr "Ratio de compression"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Compression Ratio:"
+msgstr "Ratio de compression:"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Condition"
+msgstr "Condition"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Condition:"
+msgstr "Condition:"
+
+#. Text in function
+#: automax_deluxe/contact-us.php:23
+msgid "Contact Form Submission from "
+msgstr "Formulaire de contact"
+
+#. Text in echo
+#: automax_deluxe/single-gtcd.php:90 automax_deluxe/footer.php:35
+msgid "Contact Us"
+msgstr "Nous contacter"
+
+#. Text in echo
+#: automax_deluxe/functions/meta-boxes-code.php:1143
+msgid "Contact:"
+msgstr "Contact:"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Convertibles"
+msgstr "Convertibles"
+
+#. Text in echo
+#: automax_deluxe/functions/meta-boxes-code.php:1142
+msgid "Copy & Paste the generated code into your Craigslist ad."
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/functions/meta-boxes-code.php:1141
+msgid "Craigslist Code:"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Crossovers"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Cruise Control"
+msgstr "Régulateur de vitesse"
+
+#. Text in function
+#: automotive-deluxe/sidebars/register-sidebars.php:1089
+msgid "Cruise Control:"
+msgstr "Régulateur de vitesse:"
+
+#. Text in echo
+#: automotive-deluxe/single-gtcd.php:139
+msgid "Request Information"
+msgstr "Demander plus d'information"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Cruise Control on Steering Wheel"
+msgstr "Cruise Control sur le volant"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Curb Weight"
+msgstr "Poids à vide"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Curb Weight:"
+msgstr "Poids à vide:"
+
+#. Text in function
+#: automax_deluxe/functions/menu-and-settings-page.php:1
+#: automax_deluxe/functions/menu-and-settings-page.php:29
+msgid "Currency & Metrics"
+msgstr "Unités"
+
+#. Text in function
+#: automax_deluxe/functions/menu-and-settings-page.php:1
+msgid "Currency and Metrics"
+msgstr "Unités"
+
+#. Text in function
+#: automax_deluxe/functions.php:1280
+msgid "Dashboard"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:1143
+msgid "Delete"
+msgstr "Supprimer"
+
+#. Text in echo
+#: automax_deluxe/functions/meta-boxes-code.php:1143
+#: automax_deluxe/functions.php:1658
+msgid "Description"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Description:"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Diesel Engines"
+msgstr "Moteur Diesel"
+
+#. Text in echo
+#: automax_deluxe/financing.php:189
+msgid "Down Payment:  "
+msgstr "Acompte"
+
+#. Text in function
+#: automax_deluxe/functions/user-post-type.php:97
+#: automax_deluxe/functions.php:1658
+msgid "Drive"
+msgstr "Conduire"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Drive:"
+msgstr "Conduire:"
+
+#. Text in function
+#: automax_deluxe/single-gtcd.php:135 automax_deluxe/includes/form.php:1
+msgid "E-mail"
+msgstr "E-mail"
+
+#. Text in echo
+#: automax_deluxe/functions.php:1261
+msgid "E-mail Notification of New Listings Submitted for Approval"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/cdform.php:6 automax_deluxe/form-new.php:6
+msgid "E-mail:"
+msgstr "E-mail:"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:931
+msgid "EPA City MPG."
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:931
+msgid "EPA Highway MPG."
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "EPA Mileage"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/custom-taxonomies.php:1
+msgid "Edit "
+msgstr "Editer"
+
+#. Text in function
+#: automax_deluxe/functions/user-post-type.php:1
+#: automax_deluxe/functions/gtcd-post-type.php:1
+msgid "Edit Vehicle"
+msgstr "Editer le véhicule"
+
+#. Text in echo
+#: automax_deluxe/functions/menu-and-settings-page.php:57
+msgid "Edmunds API Setup"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/functions/menu-and-settings-page.php:72
+msgid "Edmunds Developer Portal"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/contact-us.php:167 automax_deluxe/cdform.php:811
+#: automax_deluxe/form-new.php:805
+msgid "Email"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/functions.php:226
+msgid "End Date:"
+msgstr "Date de fin:"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Engine Size"
+msgstr "Taille du moteur"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Engine Size:"
+msgstr "Taille du moteur:"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Engine Tye:"
+msgstr "Type de moteur"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Engine Type"
+msgstr "Type de moteur:"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter Anti Theft Alarm System"
+msgstr "Entez le système d'alarme anti-vol"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter Antilock Braking System"
+msgstr "Entrez le système d'ABS"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter Audio Control on Steering Wheel"
+msgstr "Entrez le système contrôle du volume sur le volant"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter Auto Dimming Rearview Mirror"
+msgstr "Entrez le système de correction automatique de la luminosité sur le retroviseur"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter Braking Assist"
+msgstr "Entrez le système d'assistance au freinage"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:931
+msgid "Enter Carfax partner ID to offer free reports with your vehicle."
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter Cargo Area Power Outlet"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter Cruise Control"
+msgstr "Entrez le régulateur de vitesse"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter Cruise Control on Steering Wheel"
+msgstr "Entrez le régulateur de vitesse sur le volant"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:931
+msgid "Enter EPA City MPG."
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:931
+msgid "Enter EPA Highway MPG."
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter First Row Power Outlet"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter First Row Vanity Mirrors"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter Folding Second Row Seats"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter Front Air Conditioning"
+msgstr "Entrez le système d'air conditionné"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter Front Brake Type"
+msgstr "Entrez le système de freinage avant"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter Front Suspension Type"
+msgstr "Entrez le système de suspension avant"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter Heated Driver Side Mirror"
+msgstr "Entrez le système de dégivrage du rétroviseur côté conducteur"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter Heated Passenger Side Mirror"
+msgstr "Entrez le système de dégivrage du rétroviseur côté passager"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter Independent Suspension"
+msgstr "Entrez si les suspensions sont indépendantes"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter Maximum Cargo Capacity Suspension"
+msgstr "Entrez la limite de capacité de chargement maximale"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter Passenger Airbags"
+msgstr "Entrez les airbags pour passagers"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter Power Door Locks"
+msgstr "Entrez le mode de verrouillage des serrures électriques"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter Rear Brake Diameter"
+msgstr "Entrez le diamètre du frein arrière "
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter Rear Suspension Type"
+msgstr "Entrer le type de suspension arrière"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter Roof Rack"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter Running Boards"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter Trailer Hitch"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter Trailer Wiring"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/cdform.php:521 automax_deluxe/cdform.php:531
+#: automax_deluxe/form-new.php:515 automax_deluxe/form-new.php:525
+msgid "Enter VIN"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions.php:1280
+msgid "Enter Vehicle Make & Model"
+msgstr "Entrez la marque et le modèle du véhicule"
+
+#. Text in function
+#: automax_deluxe/single-gtcd.php:135 automax_deluxe/includes/form.php:1
+msgid "Enter a valid Email"
+msgstr "Entrez un Email valide"
+
+#. Text in function
+#: automax_deluxe/cdform.php:464 automax_deluxe/cdform.php:474
+#: automax_deluxe/form-new.php:458 automax_deluxe/form-new.php:468
+msgid "Enter exterior color"
+msgstr "Entrez la couleur extérieur"
+
+#. Text in function
+#: automax_deluxe/cdform.php:482 automax_deluxe/cdform.php:493
+#: automax_deluxe/form-new.php:476 automax_deluxe/form-new.php:487
+msgid "Enter interior color"
+msgstr "Entrez la couleur intérieur"
+
+#. Text in echo
+#: automax_deluxe/searchform.php:2
+msgid "Enter keywords..."
+msgstr "Entrez les mots clés"
+
+#. Text in function
+#: automax_deluxe/cdform.php:272 automax_deluxe/cdform.php:282
+#: automax_deluxe/cdform.php:283 automax_deluxe/form-new.php:266
+#: automax_deluxe/form-new.php:276 automax_deluxe/form-new.php:277
+msgid "Enter listing title"
+msgstr "Entrez le titre de l'annonce"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter number of cylinders."
+msgstr "Entrez le nombre de cylindres"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:931
+msgid "Enter the Vehicle Type."
+msgstr "Entrez le type de véhicule"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:931
+msgid "Enter the full vehicle price without commas or dots."
+msgstr "Entrez le prix du véhicule complet sans virgules ni points."
+
+#. Text in echo
+#: automax_deluxe/widgets/theme-widgets.php:819
+msgid "Enter title for third module:</strong> <br/>(leave empty to hide)"
+msgstr "Entrez le titre du troisième module:</strong> <br/>(Laissez vide pour ne pas afficher)"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:931
+msgid "Enter vehicle condition."
+msgstr "Entrez l'état du véhicule"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter vehicle curb weight"
+msgstr "Entrez le poids du véhicule à vide"
+
+#. Text in function
+#: automax_deluxe/cdform.php:500 automax_deluxe/cdform.php:510
+#: automax_deluxe/cdform.php:511 automax_deluxe/form-new.php:494
+#: automax_deluxe/form-new.php:504 automax_deluxe/form-new.php:505
+msgid "Enter vehicle drive"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:931
+msgid "Enter vehicle drive type."
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter vehicle engine size."
+msgstr "Entrez la taille du moteur."
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter vehicle engine type."
+msgstr "Entrez le type du moteur."
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:931
+msgid "Enter vehicle exterior color."
+msgstr "Entrez la couleur extérieur du véhicule"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter vehicle fuel capacity."
+msgstr "Entrez la capacité de carburant du véhicule."
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter vehicle head room."
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter vehicle height."
+msgstr "Entrez le poids du véhicule."
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter vehicle horsepower."
+msgstr "Entrez le nombre de chevaux."
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:931
+msgid "Enter vehicle identification number."
+msgstr "Entrez la plaque d'identification."
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:931
+msgid "Enter vehicle interior color."
+msgstr "Entrez la couleur intérieur du véhicule."
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter vehicle leg room"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:931
+msgid "Enter vehicle mileage."
+msgstr "Entrez le kilométrage du véhicule."
+
+#. Text in function
+#: automax_deluxe/cdform.php:443 automax_deluxe/cdform.php:454
+#: automax_deluxe/form-new.php:437 automax_deluxe/form-new.php:448
+msgid "Enter vehicle miles"
+msgstr "Entrez les km du véhicule"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter vehicle overall length"
+msgstr "Entrer la longueur totale du véhicule"
+
+#. Text in function
+#: automax_deluxe/cdform.php:425 automax_deluxe/cdform.php:435
+#: automax_deluxe/cdform.php:436 automax_deluxe/form-new.php:419
+#: automax_deluxe/form-new.php:429 automax_deluxe/form-new.php:430
+msgid "Enter vehicle price"
+msgstr "Entrer le prix du véhicule"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter vehicle seating capacity"
+msgstr "Entrer le nombre de siège du véhicule"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:931
+msgid "Enter vehicle stock number."
+msgstr "Entrez le numéro de stock du véhicule."
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter vehicle tires."
+msgstr "Entrez les pneus du véhicule."
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:931
+msgid "Enter vehicle transmission type."
+msgstr "Entrer le type de transmission du véhicule."
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter vehicle wheelbase"
+msgstr "Entrer l'empattement du véhicule"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Enter vehicle width"
+msgstr "Entrer la largeur du véhicule"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:931
+msgid "Enter vehicle year."
+msgstr "Entrez l'année du véhicule."
+
+#. Text in function
+#: automax_deluxe/cdform.php:813 automax_deluxe/cdform.php:823
+#: automax_deluxe/cdform.php:824 automax_deluxe/form-new.php:807
+#: automax_deluxe/form-new.php:817 automax_deluxe/form-new.php:818
+msgid "Enter your E-mail"
+msgstr "Entrer votre Email"
+
+#. Text in function
+#: automax_deluxe/cdform.php:749 automax_deluxe/cdform.php:760
+#: automax_deluxe/cdform.php:761 automax_deluxe/form-new.php:743
+#: automax_deluxe/form-new.php:754 automax_deluxe/form-new.php:755
+msgid "Enter your first name"
+msgstr "Entrez votre prénom"
+
+#. Text in function
+#: automax_deluxe/cdform.php:769 automax_deluxe/cdform.php:781
+#: automax_deluxe/cdform.php:782 automax_deluxe/form-new.php:763
+#: automax_deluxe/form-new.php:775 automax_deluxe/form-new.php:776
+msgid "Enter your last name"
+msgstr "Entrez votre nom"
+
+#. Text in function
+#: automax_deluxe/cdform.php:833 automax_deluxe/cdform.php:844
+#: automax_deluxe/cdform.php:845 automax_deluxe/form-new.php:827
+#: automax_deluxe/form-new.php:838 automax_deluxe/form-new.php:839
+msgid "Enter your phone number"
+msgstr "Entrez votre numéro de téléphone"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Epa Mileage:"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/user-post-type.php:97
+#: automax_deluxe/functions.php:1658
+msgid "Exterior"
+msgstr "Extérieur"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Exterior:"
+msgstr "Extérieur:"
+
+#. Text in echo
+#: automax_deluxe/widgets/theme-widgets.php:1083
+msgid "Facebook Page Name: "
+msgstr "Nom de la page Facebook:"
+
+#. Text in echo
+#: automax_deluxe/includes/slider.php:3 automax_deluxe/functions.php:1658
+msgid "Featured"
+msgstr "Selection"
+
+#. Text in function
+#: automax_deluxe/widgets/register-sidebars.php:1
+msgid "Featured Cars"
+msgstr "Voitures de selection"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:763
+msgid "Featured Post"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/widgets/theme-widgets.php:269
+msgid "Featured Vehicles Module in Single Listing Page"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Featured:"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/functions/meta-boxes-code.php:1143
+#: automax_deluxe/single-user_listing.php:56 automax_deluxe/functions.php:1658
+#: automax_deluxe/single-gtcd.php:93
+msgid "Features"
+msgstr "Caractéristiques"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Features:"
+msgstr "Caractéristiques:"
+
+#. Text in echo
+#: automax_deluxe/functions/menu-and-settings-page.php:102
+msgid "Fields"
+msgstr "Champs"
+
+#. Text in echo
+#: automax_deluxe/functions/file/includes/import.php:68
+msgid "File"
+msgstr "Fichier"
+
+#. Text in echo
+#: automax_deluxe/functions/file/includes/map.php:182
+msgid "File Import Fields"
+msgstr "Champs d'importation de fichier"
+
+#. Text in echo
+#: automax_deluxe/financing.php:173
+msgid "Fill-in Your Loan Information"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/functions.php:27
+msgid "Filter By Stock Number"
+msgstr "Filtrer par numéro de stock"
+
+#. Text in function
+#: automax_deluxe/cdform.php:272 automax_deluxe/form-new.php:266
+msgid "First Name"
+msgstr "Prénom"
+
+#. Text in function
+#: automax_deluxe/cdform.php:6 automax_deluxe/form-new.php:6
+msgid "First Name:"
+msgstr "Prénom:"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "First Row Power Outlet"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "First Row Vanity Mirrors"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/cdform.php:747 automax_deluxe/form-new.php:741
+msgid "First name"
+msgstr "Prénom"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Folding Second Row Seats"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/widgets/register-sidebars.php:1
+msgid "Footer"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/widgets/theme-widgets.php:1325
+msgid "Footer 1 Widget"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/widgets/theme-widgets.php:1325
+msgid "Footer 2 Widget"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/widgets/theme-widgets.php:1325
+msgid "Footer 3 Widget"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/widgets/theme-widgets.php:1325
+msgid "Footer 4 Widget (Map)"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Front Air Conditioning"
+msgstr "Climatisation avant"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Front Brake Type"
+msgstr "Type de frein avant"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Front Suspension Type"
+msgstr "Type de suspension"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Fuel Capacity"
+msgstr "Capacité de carburant"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Fuel Capacity:"
+msgstr "Capacité de carburant:"
+
+#. Text in function
+#: automax_deluxe/news.php:27
+msgid "Full Article..."
+msgstr "Article complet"
+
+#. Text in echo
+#: automax_deluxe/footer.php:43
+msgid "Go To Top"
+msgstr "Aller au Top"
+
+#. Text in echo
+#: automax_deluxe/functions/menu-and-settings-page.php:72
+msgid "Go to "
+msgstr "Aller à"
+
+#. Text in echo
+#: automax_deluxe/functions/styles.php:41
+msgid "Green"
+msgstr "Vert"
+
+#. Text in function
+#: automax_deluxe/functions.php:1280
+msgid "Gtalk"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Head Room"
+msgstr "L'avant"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Head Room:"
+msgstr "L'avant:"
+
+#. Text in function
+#: automax_deluxe/functions/basic-theme-setup.php:1
+msgid "Header Menu"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Heated Driver Passenger Mirror"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Heated Driver Side Mirror"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Height"
+msgstr "Taille"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Height:"
+msgstr "Taille:"
+
+#. Text in echo
+#: automax_deluxe/functions/file/includes/map.php:148
+msgid "Hierarchy"
+msgstr "Hiérarchie"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Horsepower"
+msgstr "Nombre de chevaux"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Horsepower:"
+msgstr "Nombre de chevaux:"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Hybrids"
+msgstr "Hybrides"
+
+#. Text in echo
+#: automax_deluxe/functions.php:1265
+msgid "I want to be notified by e-mail"
+msgstr "Je veux être averti par e-mail"
+
+#. Text in function
+#: automax_deluxe/single-gtcd.php:279 automax_deluxe/includes/form.php:146
+msgid "I would like to request more information about "
+msgstr "Je voudrais demander plus d'informations sur"
+
+#. Text in function
+#: automax_deluxe/single-gtcd.php:279
+msgid "I would like to request more information about your vehicle"
+msgstr "Je voudrais demander plus d'informations sur votre véhicule"
+
+#. Text in echo
+#: automax_deluxe/widgets/theme-widgets.php:234
+msgid "INTEREST RATE: %"
+msgstr "TAUX D'INTÉRÊT: %"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:931
+msgid "If YES selected the image of this post will be displayed in the home slideshow."
+msgstr "Si OUI, l'image de ce message sera affichée dans le diaporama."
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:931
+msgid "If yes this Vehicle will show up on the Top Deals Widget."
+msgstr "Si oui, ce véhicule apparaîtra sur le Widget Top Deals."
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:931
+msgid "If yes this Vehicle will show up on the home page featured module."
+msgstr "Si oui, ce véhicule apparaîtra sur le module \"la sélection\" de la page d'accueil."
+
+#. Text in echo
+#: automax_deluxe/functions/file/includes/import.php:70
+msgid "If you notice that some of your listings do not have photos attached it is because they were not found in the database."
+msgstr "Si vous remarquez que certaines de vos fiches n'ont pas de photos jointes, c'est parce qu'elles n'ont pas été trouvées dans la base de données."
+
+#. Text in function
+#: automax_deluxe/functions/file/functions.php:1
+msgid "Import Vehicles"
+msgstr "Véhicules importés"
+
+#. Text in function
+#: automax_deluxe/contact-us.php:23 automax_deluxe/cdform.php:6
+#: automax_deluxe/single-gtcd.php:135 automax_deluxe/includes/form.php:1
+#: automax_deluxe/form-new.php:6
+msgid "Incorrect Security Code"
+msgstr "Code de sécurité incorrect"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Independent Suspension"
+msgstr "Suspension indépendante"
+
+#. Text in echo
+#: automax_deluxe/functions/menu-and-settings-page.php:78
+msgid "Insert Edmunds API Vehicle Key"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:1451
+msgid "Insert Image into Input Field"
+msgstr "Insérer une image dans le champ de saisie"
+
+#. Text in echo
+#: automax_deluxe/financing.php:195
+msgid "Interest Rate: "
+msgstr "Taux d'intérêt:"
+
+#. Text in function
+#: automax_deluxe/functions/user-post-type.php:97
+#: automax_deluxe/functions.php:1658
+msgid "Interior"
+msgstr "Intérieur"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Interior:"
+msgstr "Intérieur:"
+
+#. Text in function
+#: automax_deluxe/functions/gtcd-post-type.php:1
+msgid "Inventory"
+msgstr "Inventaire"
+
+#. Text in echo
+#: automax_deluxe/widgets/theme-widgets.php:240
+msgid "LOAN TERM: Yrs.   "
+msgstr "TERME DE PRÊT: Années."
+
+#. Text in function
+#: automax_deluxe/cdform.php:6 automax_deluxe/form-new.php:6
+msgid "Last Name:"
+msgstr "Nom de famille:"
+
+#. Text in echo
+#: automax_deluxe/cdform.php:767 automax_deluxe/form-new.php:761
+msgid "Last name"
+msgstr "Nom de famille"
+
+#. Text in echo
+#: automax_deluxe/widgets/theme-widgets.php:1121
+msgid "Learn more"
+msgstr "En savoir plus"
+
+#. Text in function
+#: automax_deluxe/comments.php:70
+msgid "Leave A Reply"
+msgstr "Laisser un commentaire"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Leg Room"
+msgstr "Espace pour les jambes"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Leg Room:"
+msgstr "Espace pour les jambes:"
+
+#. Text in echo
+#: automax_deluxe/widgets/theme-widgets.php:1019
+msgid "Legend: "
+msgstr "Légende: "
+
+#. Text in function
+#: automax_deluxe/functions.php:1280
+msgid "Links"
+msgstr "Liens"
+
+#. Text in function
+#: automax_deluxe/cdform.php:219 automax_deluxe/form-new.php:213
+msgid "Listing Title:"
+msgstr "Titre de l'annonce:"
+
+#. Text in echo
+#: automax_deluxe/financing.php:206
+msgid "Loan Term: "
+msgstr "Durée du prêt:"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Location"
+msgstr "Location"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Location:"
+msgstr "Location:"
+
+#. Text in echo
+#: automax_deluxe/comments.php:84
+msgid "Log out"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/comments.php:84
+msgid "Logged in as "
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Luxury Vehicles"
+msgstr "Véhicules de luxe"
+
+#. Text in echo
+#: automax_deluxe/comments.php:90
+msgid "Mail*"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/cdform.php:295 automax_deluxe/form-new.php:289
+msgid "Make"
+msgstr "Marque"
+
+#. Text in function
+#: automax_deluxe/functions/user-post-type.php:1
+#: automax_deluxe/functions.php:1658
+#: automax_deluxe/functions/gtcd-post-type.php:1
+msgid "Make & Model"
+msgstr "Marque et modèle"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Make & Model:"
+msgstr "Marque et modèle:"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Manual"
+msgstr "Manuelle"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Maximum Cargo Capacity Suspension"
+msgstr "Capacité maximale des suspensions"
+
+#. Text in function
+#: automax_deluxe/functions.php:1280
+msgid "Media"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/menu-and-settings-page.php:1
+msgid "Metric:"
+msgstr "Unité:"
+
+#. Text in echo
+#: automax_deluxe/functions/search-code.php:266
+#: automax_deluxe/functions/user-post-type.php:97
+#: automax_deluxe/functions.php:1658
+msgid "Miles"
+msgstr "km"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Miles:"
+msgstr "km:"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Minivans and Vans"
+msgstr "Minivans et Vans"
+
+#. Text in echo
+#: automax_deluxe/cdform.php:356 automax_deluxe/form-new.php:350
+msgid "Model"
+msgstr "Modèle"
+
+#. Text in echo
+#: automax_deluxe/financing.php:257
+msgid "Monthly Payment: "
+msgstr "Paiement mensuel:"
+
+#. Text in echo
+#: automax_deluxe/cdform.php:716 automax_deluxe/form-new.php:710
+msgid "More photos"
+msgstr "Plus de photos"
+
+#. Text in echo
+#: automax_deluxe/contact-us.php:146 automax_deluxe/single-gtcd.php:135
+#: automax_deluxe/includes/form.php:1
+msgid "Name"
+msgstr "Nom"
+
+#. Text in echo
+#: automax_deluxe/comments.php:88
+msgid "Name*"
+msgstr "Nom*"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:931
+msgid "New"
+msgstr "Nouveau"
+
+#. Text in function
+#: automax_deluxe/functions/custom-taxonomies.php:1
+msgid "New "
+msgstr "Nouveau"
+
+#. Text in echo
+#: automax_deluxe/includes/arrivals.php:2
+msgid "New Arrivals"
+msgstr "Nouveautés"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:931
+msgid "No"
+msgstr "Non"
+
+#. Text in function
+#: automax_deluxe/comments.php:17
+msgid "No Comments"
+msgstr "Pas de commentaire"
+
+#. Text in function
+#: automax_deluxe/functions/user-post-type.php:1
+#: automax_deluxe/functions/gtcd-post-type.php:1
+msgid "No Vehicles Found"
+msgstr "Aucun véhicule trouvé"
+
+#. Text in function
+#: automax_deluxe/functions/user-post-type.php:1
+#: automax_deluxe/functions/gtcd-post-type.php:1
+msgid "No Vehicles Found In Trash"
+msgstr "Aucun véhicule trouvé dans la corbeille"
+
+#. Text in echo
+#: automax_deluxe/category.php:32 automax_deluxe/tag.php:34
+#: automax_deluxe/archive.php:32
+msgid "No, Results Found"
+msgstr "Aucun résultat trouvé"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:931
+msgid "None"
+msgstr "Aucun"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Number of Cylinders"
+msgstr "Nombre de cylindres"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Number of Cylinders:"
+msgstr "Nombre de cylindres:"
+
+#. Text in echo
+#: automax_deluxe/widgets/theme-widgets.php:464
+msgid "Number of Vehicles:"
+msgstr "Nombre de véhicules:"
+
+#. Text in echo
+#: automax_deluxe/widgets/theme-widgets.php:586
+msgid "Number of listings:"
+msgstr "Nombre d'annonces:"
+
+#. Text in function
+#: automax_deluxe/widgets/theme-widgets.php:439
+msgid "Number of vehicles"
+msgstr "Nombre de véhicules:"
+
+#. Text in function
+#: automax_deluxe/comments.php:17
+msgid "One Comment"
+msgstr "Un commentaire"
+
+#. Text in echo
+#: automax_deluxe/functions.php:551
+msgid "Option 10:"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/functions.php:552
+msgid "Option 11:"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/functions.php:553
+msgid "Option 12:"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/functions.php:542 automax_deluxe/functions.php:561
+msgid "Option 1:"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/functions.php:543 automax_deluxe/functions.php:563
+msgid "Option 2:"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/functions.php:544 automax_deluxe/functions.php:565
+msgid "Option 3:"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/functions.php:545 automax_deluxe/functions.php:567
+msgid "Option 4:"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/functions.php:546
+msgid "Option 5:"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/functions.php:547
+msgid "Option 6:"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/functions.php:548
+msgid "Option 7:"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/functions.php:549
+msgid "Option 8:"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/functions.php:550
+msgid "Option 9:"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/functions/styles.php:19
+msgid "Options saved"
+msgstr "Option sauvée"
+
+#. Text in echo
+#: automax_deluxe/functions/styles.php:40
+msgid "Orange"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Other"
+msgstr "Autre"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Overall Lenght"
+msgstr "Longueur totale"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Overall Length:"
+msgstr "Longueur totale:"
+
+#. Text in echo
+#: automax_deluxe/single-user_listing.php:59
+msgid "Overview"
+msgstr "Aperçu"
+
+#. Text in function
+#: automax_deluxe/header.php:14
+msgid "Page %s"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions.php:1280
+msgid "Pages"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/custom-taxonomies.php:1
+msgid "Parent"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/custom-taxonomies.php:1
+msgid "Parent "
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Passenger Airbags"
+msgstr "Airbags passagers"
+
+#. Text in echo
+#: automax_deluxe/cdform.php:735 automax_deluxe/form-new.php:729
+msgid "Personal Information &raquo;"
+msgstr "Information personnelle"
+
+#. Text in function
+#: automax_deluxe/functions.php:1280 automax_deluxe/single-gtcd.php:135
+#: automax_deluxe/includes/form.php:1
+msgid "Phone"
+msgstr "Téléphone"
+
+#. Text in function
+#: automax_deluxe/cdform.php:6 automax_deluxe/form-new.php:6
+msgid "Phone Number:"
+msgstr "Numéro de téléphone:"
+
+#. Text in echo
+#: automax_deluxe/cdform.php:831 automax_deluxe/form-new.php:825
+msgid "Phone number"
+msgstr "Numéro de téléphone"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:1143
+#: automax_deluxe/functions/file/includes/map.php:189
+#: automax_deluxe/includes/meta-box-usage.php:1
+msgid "Photo Gallery"
+msgstr "Galerie de photos"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Pickup Trucks"
+msgstr "Camionnettes"
+
+#. Text in echo
+#: automax_deluxe/functions/file/includes/import.php:
+msgid "Please click "
+msgstr "Cliquez s'il vous plait"
+
+#. Text in function
+#: automax_deluxe/single-gtcd.php:135 automax_deluxe/includes/form.php:1
+msgid "Please enter a message."
+msgstr "Entrez un message."
+
+#. Text in function
+#: automax_deluxe/contact-us.php:170
+msgid "Please enter your email"
+msgstr "Entrez votre email"
+
+#. Text in function
+#: automax_deluxe/contact-us.php:191
+msgid "Please enter your message"
+msgstr "Entrez votre message"
+
+#. Text in function
+#: automax_deluxe/contact-us.php:149
+msgid "Please enter your name"
+msgstr "Entrez votre nom"
+
+#. Text in echo
+#: automax_deluxe/functions/file/index.php:6
+msgid "Please follow the instructions below to import your existing vehicles into Automotive theme."
+msgstr "Veuillez suivre les instructions ci-dessous pour importer vos véhicules existants dans le thème automobile."
+
+#. Text in echo
+#: automax_deluxe/functions/menu-and-settings-page.php:61
+msgid "Please insert API Key!"
+msgstr "Insérez la clé API"
+
+#. Text in echo
+#: automax_deluxe/includes/slider.php:54 automax_deluxe/cdform.php:803
+#: automax_deluxe/form-new.php:797
+msgid "Please wait"
+msgstr "S'il vous plaît, attendez"
+
+#. Text in function
+#: automax_deluxe/functions.php:1280
+msgid "Plugins"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Power Door Locks"
+msgstr "Serrures électriques"
+
+#. Text in echo
+#: automax_deluxe/footer-form.php:4 automax_deluxe/footer.php:19
+msgid "Powered by"
+msgstr "Alimenté par"
+
+#. Text in echo
+#: automax_deluxe/footer.php:10
+#, fuzzy
+msgid "Powered by "
+msgstr "Alimenté par"
+
+#. Text in echo
+#: automax_deluxe/functions/search-code.php:268
+#: automax_deluxe/functions.php:1658
+msgid "Price"
+msgstr "Prix"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Price:"
+msgstr "Prix:"
+
+#. Text in echo
+#: automax_deluxe/single-user_listing.php:21
+msgid "Price: "
+msgstr "Prix:"
+
+#. Text in echo
+#: automax_deluxe/financing.php:231
+msgid "Principal: "
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/cdform.php:701 automax_deluxe/form-new.php:695
+#, fuzzy
+msgid "Property Photos"
+msgstr "Propriété des photos"
+
+#. Text in echo
+#: automax_deluxe/financing.php:183
+msgid "Purchase Price:  "
+msgstr "Prix d'achat:"
+
+#. Text in echo
+#: automax_deluxe/financing.php:179
+msgid "Purchase information"
+msgstr "Informations d'achat"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Rear Brake Diameter"
+msgstr "Diamètre de frein arrière"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Rear Suspension Type"
+msgstr "Type de suspension arrière"
+
+#. Text in echo
+#: automax_deluxe/functions/styles.php:42
+msgid "Red"
+msgstr "Rouge"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:931
+msgid "Reduced"
+msgstr "Réduit"
+
+#. Text in echo
+#: automax_deluxe/functions/menu-and-settings-page.php:73
+msgid "Register a new free account on Edmunds website to get your API key in order to use the Automotive VIN Decoder."
+msgstr "Enregistrez un nouveau compte gratuit sur le site d'Edmunds pour obtenir votre clé API afin d'utiliser le décodeur VIN automobile."
+
+#. Text in echo
+#: automax_deluxe/functions/menu-and-settings-page.php:101
+msgid "Rename labels and options for the search module and hide-show each field in the form."
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/widgets/theme-widgets.php:1325
+msgid "Request More Information"
+msgstr "Demander plus d'informations"
+
+#. Text in function
+#: automax_deluxe/widgets/register-sidebars.php:1
+msgid "Request Vehicle Information Widget"
+msgstr "Demandez les informations sur les options du véhicule"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Roof Rack"
+msgstr "Barre de toit"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Running Boards"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:931
+msgid "Sale"
+msgstr "Solde"
+
+#. Text in echo
+#: automax_deluxe/functions/menu-and-settings-page.php:39
+#: automax_deluxe/functions/menu-and-settings-page.php:85
+#: automax_deluxe/functions/menu-and-settings-page.php:108
+msgid "Save Changes"
+msgstr "Sauvez les changements"
+
+#. Text in echo
+#: automax_deluxe/functions/styles.php:48
+msgid "Save Options"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/functions/search-code.php:99
+#: automax_deluxe/functions/search-code.php:102 automax_deluxe/searchform.php:3
+msgid "Search"
+msgstr "Rechercher"
+
+#. Text in function
+#: automax_deluxe/functions/custom-taxonomies.php:1
+msgid "Search "
+msgstr "Rechercher"
+
+#. Text in function
+#: automax_deluxe/widgets/theme-widgets.php:1325
+#: automax_deluxe/widgets/register-sidebars.php:1
+msgid "Search Module"
+msgstr "Module de recherche"
+
+msgid "Search Fields"
+msgstr "Traductions"
+
+#. Text in function
+#: automax_deluxe/functions/user-post-type.php:1
+#: automax_deluxe/includes/search-common.php:3
+#: automax_deluxe/functions/gtcd-post-type.php:1
+msgid "Search Vehicles"
+msgstr "Rechercher des véhicules"
+
+#. Text in echo
+#: automax_deluxe/widgets/theme-widgets.php:1325
+msgid "Searching"
+msgstr "Recherche"
+
+#. Text in echo
+#: automax_deluxe/includes/slider.php:51
+msgid "Searching Inventory"
+msgstr "Recherche d'inventaire"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Seating Capacity (Std)"
+msgstr "Nombre de places (standard)"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Seating Capacity (Std):"
+msgstr "Nombre de places (standard):"
+
+#. Text in echo
+#: automax_deluxe/contact-us.php:224 automax_deluxe/cdform.php:896
+#: automax_deluxe/single-gtcd.php:308 automax_deluxe/form-new.php:890
+msgid "Security Code: "
+msgstr "Code de sécurité:"
+
+#. Text in echo
+#: automax_deluxe/contact-us.php:215 automax_deluxe/cdform.php:885
+#: automax_deluxe/includes/side-form.php:130 automax_deluxe/single-gtcd.php:303
+#: automax_deluxe/includes/form.php:168 automax_deluxe/form-new.php:879
+msgid "Security Text"
+msgstr "Texte de sécurité"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Sedans and Coupes"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/cdform.php:607 automax_deluxe/form-new.php:601
+msgid "Select"
+msgstr "Selectionner"
+
+#. Text in echo
+#: automax_deluxe/functions/search-code.php:718
+#: automax_deluxe/functions.php:590
+msgid "Select City"
+msgstr "Sélectionnez une ville"
+
+#. Text in echo
+#: automax_deluxe/functions/file/includes/map.php:192
+msgid "Select Field"
+msgstr "Sélectionner un champ"
+
+#. Text in echo
+#: automax_deluxe/functions/file/includes/upload.php:6
+msgid "Select Import File"
+msgstr "Sélectionnez Importer fichier"
+
+#. Text in function
+#: automax_deluxe/functions/search-code.php:760 automax_deluxe/cdform.php:334
+#: automax_deluxe/form-new.php:328
+msgid "Select Make"
+msgstr "Sélectionnez la marque"
+
+#. Text in echo
+#: automax_deluxe/functions/search-code.php:777
+#: automax_deluxe/functions.php:590 automax_deluxe/cdform.php:365
+#: automax_deluxe/form-new.php:359
+msgid "Select Model"
+msgstr "Sélectionnez le modèle"
+
+#. Text in function
+#: automax_deluxe/functions/search-code.php:760
+msgid "Select State"
+msgstr "Sélectionnez l'état"
+
+#. Text in echo
+#: automax_deluxe/functions/styles.php:36
+msgid "Select a color style for your website: "
+msgstr "Sélectionnez un style de couleur pour votre site Web:"
+
+#. Text in echo
+#: automax_deluxe/functions/menu-and-settings-page.php:34
+msgid "Select your currency and metrics."
+msgstr "Sélectionnez les unitées"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Semi-Auto"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/contact-us.php:235 automax_deluxe/single-gtcd.php:313
+#: automax_deluxe/includes/form.php:178
+msgid "Send"
+msgstr "Envoyer"
+
+#. Text in echo
+#: automax_deluxe/cdform.php:861 automax_deluxe/form-new.php:855
+msgid "Send copy to my email address"
+msgstr "Envoyer une copie à mon adresse e-mail"
+
+#. Text in function
+#: automax_deluxe/cdform.php:541 automax_deluxe/cdform.php:551
+#: automax_deluxe/cdform.php:553 automax_deluxe/form-new.php:535
+#: automax_deluxe/form-new.php:545 automax_deluxe/form-new.php:547
+msgid "Separate features with commas (feature1, feature2, feature3)"
+msgstr "Séparer les caractéristiques par des virgules (Caractéristique1, Caractéristique2, Caractéristique3)"
+
+#. Text in echo
+#: automax_deluxe/functions/file/includes/map.php:183
+msgid "Separator"
+msgstr "Séparateur"
+
+#. Text in function
+#: automax_deluxe/functions.php:1280
+msgid "Settings"
+msgstr "Paramètres"
+
+#. Text in function
+#: automax_deluxe/widgets/register-sidebars.php:1
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#. Text in function
+#: automax_deluxe/functions.php:1280
+msgid "Skype"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:931
+msgid "Sold"
+msgstr "Vendu"
+
+#. Text in echo
+#: automax_deluxe/category.php:33 automax_deluxe/tag.php:35
+#: automax_deluxe/archive.php:33
+msgid "Sorry, No Posts found!"
+msgstr "Désolé, Aucun post trouvé!"
+
+#. Text in echo
+#: automax_deluxe/includes/side-form.php:72 automax_deluxe/single-gtcd.php:215
+#: automax_deluxe/includes/form.php:81
+msgid "Sorry, an error occured."
+msgstr "Désolé, une erreur s'est produite."
+
+#. Text in echo
+#: automax_deluxe/functions/search-code.php:369 automax_deluxe/taxonomy.php:54
+msgid "Sorry, no listings matched your criteria."
+msgstr "Désolé, aucune annonce ne correspond à vos critères."
+
+#. Text in echo
+#: automax_deluxe/includes/slider.php:43
+msgid "Sorry, no posts matched your criteria."
+msgstr "Désolé, aucun article ne correspond à vos critères."
+
+#. Text in echo
+#: automax_deluxe/404.php:10
+msgid "Sorry, no results found. Please try another search"
+msgstr "Désolé, aucun résultat trouvé. Veuillez essayer une autre recherche"
+
+#. Text in echo
+#: automax_deluxe/functions/search-code.php:253
+msgid "Sort By:"
+msgstr "Trier par:"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Sport Utilities"
+msgstr "Utilitaires sportifs"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Sports Cars"
+msgstr "Voitures de sport"
+
+#. Text in echo
+#: automax_deluxe/functions.php:225
+msgid "Start Date:"
+msgstr "Date de début:"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "State"
+msgstr "Etat"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "State:"
+msgstr "Etat:"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Stock"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Stock #:"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Stroke"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Stroke:"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/cdform.php:917 automax_deluxe/form-new.php:911
+msgid "Submit"
+msgstr "Envoyer"
+
+#. Text in echo
+#: automax_deluxe/comments.php:98
+msgid "Submit Comment"
+msgstr "Envoyer un commentaire"
+
+#. Text in echo
+#: automax_deluxe/cdform.php:200 automax_deluxe/form-new.php:194
+msgid "Submit your Vehicle to"
+msgstr "Envoyez votre véhicule à"
+
+#. Text in function
+#: automax_deluxe/category.php:14 automax_deluxe/archive.php:14
+msgid "Tag Archives: %s"
+msgstr "tag archives %s"
+
+#. Text in echo
+#: automax_deluxe/cdform.php:211 automax_deluxe/form-new.php:205
+msgid "Thank you "
+msgstr "Merci"
+
+#. Text in echo
+#: automax_deluxe/contact-us.php:129
+msgid "Thanks,"
+msgstr "Merci,"
+
+#. Text in echo
+#: automax_deluxe/includes/side-form.php:66 automax_deluxe/single-gtcd.php:209
+#: automax_deluxe/includes/form.php:75
+msgid "Thanks, your email was sent successfully."
+msgstr "Merci, votre courriel a été envoyé avec succès."
+
+#. Text in echo
+#: automax_deluxe/functions/file/includes/map.php:62
+msgid "The fields on the left are Automotive theme inventory fields"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/styles.php:1
+msgid "Theme Color"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/styles.php:1
+msgid "Theme Style"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/contact-us.php:139
+msgid "There was an error submitting the form."
+msgstr "Il y a eu une erreur en soumettant le formulaire."
+
+#. Text in echo
+#: automax_deluxe/functions/file/includes/import.php:69
+msgid "There were"
+msgstr "Il y a eu"
+
+#. Text in echo
+#: automax_deluxe/cdform.php:218 automax_deluxe/form-new.php:212
+msgid "This is a summary of your submitted listing."
+msgstr "Ceci est un résumé de votre liste envoyée"
+
+#. Text in echo
+#: automax_deluxe/comments.php:8
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Ce message est protégé par mot de passe. Entrer le mot de passe pour voir les commentaires."
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Tires (Std)"
+msgstr "Roues (Std)"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Tires (Std):"
+msgstr "Roues (Std):"
+
+#. Text in function
+#: automax_deluxe/widgets/theme-widgets.php:439
+msgid "Title"
+msgstr "Titre"
+
+#. Text in echo
+#: automax_deluxe/widgets/theme-widgets.php:55
+#: automax_deluxe/widgets/theme-widgets.php:460
+msgid "Title:"
+msgstr "Titre:"
+
+#. Text in echo
+#: automax_deluxe/widgets/theme-widgets.php:1388 automax_deluxe/cdform.php:136
+#: automax_deluxe/form-new.php:136
+msgid "Title: "
+msgstr "Titre:"
+
+#. Text in function
+#: automax_deluxe/functions.php:1280
+msgid "Tools"
+msgstr "Outils"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Top Deal"
+msgstr "Top Deal"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Top Deal?:"
+msgstr "Top Deal?:"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Torque"
+msgstr "Couple"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Torque:"
+msgstr "Couple:"
+
+#. Text in echo
+#: automax_deluxe/financing.php:244
+msgid "Total Payments: "
+msgstr "Total des paiements"
+
+#. Text in echo
+#: automax_deluxe/functions/meta-boxes-code.php:1429
+msgid "Total images count: "
+msgstr "Nombre total d'images:"
+
+#. Text in echo
+#: automax_deluxe/comments.php:41
+msgid "Trackbacks/Pingbacks"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Trailer Hitch"
+msgstr "Attelage de remorque"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:198
+msgid "Trailer Wiring"
+msgstr "Câblage de remorque"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Transmission"
+msgstr "Transmission"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Transmission:"
+msgstr "Transmission:"
+
+#. Text in echo
+#: automax_deluxe/widgets/theme-widgets.php:1168
+msgid "URL for full page : "
+msgstr "URL pour la page complète:"
+
+#. Text in function
+#: automax_deluxe/functions/custom-taxonomies.php:1
+msgid "Update "
+msgstr "Mettre à jour"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:1451
+msgid "Upload Images"
+msgstr "Importer des images"
+
+#. Text in echo
+#: automax_deluxe/cdform.php:709 automax_deluxe/form-new.php:703
+msgid "Upload Photo 1 "
+msgstr "Télécharger la photo 1"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:1451
+msgid "Upload or Choose Your Custom Image File"
+msgstr "Télécharger ou choisir une photo"
+
+#. Text in echo
+#: automax_deluxe/cdform.php:795 automax_deluxe/form-new.php:789
+msgid "Uploading your Vehicle Information"
+msgstr "Mettre à jour les informations sur le véhicule"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:931
+msgid "Used"
+msgstr "Utilisé"
+
+#. Text in function
+#: automax_deluxe/cdform.php:6 automax_deluxe/form-new.php:6
+msgid "User already exists.  Password inherited."
+msgstr "L'utilisateur existe déjà. Password inherited."
+
+#. Text in function
+#: automax_deluxe/functions.php:1280
+msgid "Users"
+msgstr "Utilisateurs"
+
+#. Text in echo
+#: automax_deluxe/functions/meta-boxes-code.php:1143
+msgid "VIEW PHOTO GALLERY AND FULL VEHICLE DETAILS"
+msgstr "VOIR LA GALERIE DE PHOTOS ET TOUS LES DÉTAILS DU VÉHICULE"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "VIN"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/menu-and-settings-page.php:1
+msgid "VIN Decoder Setup"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/functions/meta-boxes-code.php:796
+msgid "VIN Number: "
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/user-post-type.php:97
+#: automax_deluxe/functions.php:1658
+msgid "VIN:"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Valves"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Valves per Cylinder:"
+msgstr "Valves par Cylindres:"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:763
+#: automax_deluxe/functions/user-post-type.php:1
+#: automax_deluxe/functions/gtcd-post-type.php:1
+msgid "Vehicle Information"
+msgstr "Informations sur le véhicule"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:763
+msgid "Vehicle Overview"
+msgstr "Aperçu du véhicule"
+
+#. Text in function
+#: automax_deluxe/functions/user-post-type.php:1
+#: automax_deluxe/functions/gtcd-post-type.php:1
+msgid "Vehicle Photo"
+msgstr "Photo de véhicule"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:763
+msgid "Vehicle Specifications"
+msgstr "Spécifications du véhicule"
+
+#. Text in function
+#: automax_deluxe/widgets/register-sidebars.php:1
+msgid "Vehicle Specifications Widget"
+msgstr "Options du véhicule"
+
+#. Text in echo
+#: automax_deluxe/functions/file/includes/map.php:90
+msgid "Vehicle Title"
+msgstr "Titre du véhicule"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Vehicle Type"
+msgstr "Type de véhicule"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Vehicle Type:"
+msgstr "Type de véhicule:"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:763
+msgid "Vehicle VIN Number Decoder"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/single-user_listing.php:64
+#: automax_deluxe/single-user_listing.php:65 automax_deluxe/single-gtcd.php:99
+#: automax_deluxe/single-gtcd.php:100
+msgid "Video"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/functions.php:1405
+msgid "Video ID"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/functions.php:1409
+msgid "Video Source"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/menu-and-settings-page.php:1
+msgid "View All Listings"
+msgstr "Voir toutes les annonces"
+
+#. Text in echo
+#: automax_deluxe/widgets/theme-widgets.php:422
+#: automax_deluxe/includes/arrivals.php:64
+msgid "View Details"
+msgstr "Voir les détails"
+
+#. Text in function
+#: automax_deluxe/functions/user-post-type.php:1
+#: automax_deluxe/functions/gtcd-post-type.php:1
+msgid "View Vehicle"
+msgstr "Voir le véhicule"
+
+#. Text in echo
+#: automax_deluxe/functions.php:1412
+msgid "Vimeo"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Wagons"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/user-post-type.php:1
+msgid "Web Listings"
+msgstr "Annonces web"
+
+#. Text in echo
+#: automax_deluxe/comments.php:92
+msgid "Website"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/functions/meta-boxes-code.php:1143
+msgid "Website:"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/widgets/theme-widgets.php:1325
+msgid "Welcome Legend on Home Page"
+msgstr "Bienvenue sur la page d'accueil"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Wheelbase"
+msgstr "Empattement"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Wheelbase:"
+msgstr "Empattement:"
+
+#. Text in echo
+#: automax_deluxe/widgets/theme-widgets.php:580
+#, fuzzy
+msgid "Widget Title:"
+msgstr "Titre du widget (de l'option):"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Width"
+msgstr "Largeur"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Width:"
+msgstr "Largeur:"
+
+#. Text in echo
+#: automax_deluxe/footer-form.php:5 automax_deluxe/footer.php:11
+msgid "WordPress"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/functions/file/includes/upload.php:7
+msgid "XML"
+msgstr ""
+
+#. Text in echo
+#: automax_deluxe/functions/search-code.php:267
+#: automax_deluxe/functions.php:1658
+msgid "Year"
+msgstr "Année"
+
+#. Text in function
+#: automax_deluxe/functions.php:1658
+msgid "Year:"
+msgstr "Année:"
+
+#. Text in function
+#: automax_deluxe/functions/meta-boxes-code.php:931
+msgid "Yes"
+msgstr "Oui"
+
+#. Text in function
+#: automax_deluxe/contact-us.php:23
+msgid "You emailed Your "
+msgstr "Vous avez envoyé votre"
+
+#. Text in function
+#: automax_deluxe/contact-us.php:23 automax_deluxe/single-gtcd.php:135
+#: automax_deluxe/includes/form.php:1
+msgid "You entered an invalid email address."
+msgstr "Vous avez entré une adresse mail invalide."
+
+#. Text in function
+#: automax_deluxe/contact-us.php:23
+msgid "You forgot to enter your comments."
+msgstr "Vous avez oublié d'entrer vos commentaires."
+
+#. Text in function
+#: automax_deluxe/contact-us.php:23
+msgid "You forgot to enter your email address."
+msgstr "Vous avez oublié de saisir votre adresse e-mail."
+
+#. Text in function
+#: automax_deluxe/contact-us.php:23
+msgid "You forgot to enter your name."
+msgstr "Vous avez oublié d'entrer votre nom."
+
+#. Text in echo
+#: automax_deluxe/comments.php:77
+msgid "You must be "
+msgstr "Vous devez être"
+
+#. Text in echo
+#: automax_deluxe/functions.php:1411
+msgid "YouTube"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions/menu-and-settings-page.php:1
+msgid "Your Currency:"
+msgstr "Votre monnaie:"
+
+#. Text in function
+#: automax_deluxe/single-gtcd.php:135 automax_deluxe/includes/form.php:1
+msgid "Your Email"
+msgstr "Votre émail"
+
+#. Text in function
+#: automax_deluxe/widgets/theme-widgets.php:1325
+msgid "Your Facebook Fan Box, add your Facebook Fan Page ID and place this widget in your Sidebar to display your followers."
+msgstr "Votre Fan Box Facebook, ajoutez votre identifiant de page Facebook Fan et placez ce widget dans votre barre latérale pour afficher vos abonnés."
+
+#. Text in function
+#: automax_deluxe/single-gtcd.php:135 automax_deluxe/includes/form.php:1
+msgid "Your Name"
+msgstr "votre nom"
+
+#. Text in function
+#: automax_deluxe/cdform.php:6 automax_deluxe/form-new.php:6
+msgid "Your Personal Information"
+msgstr "Vos informations personnelles"
+
+#. Text in echo
+#: automax_deluxe/financing.php:223
+msgid "Your Results"
+msgstr "Vos résultats"
+
+#. Text in echo
+#: automax_deluxe/cdform.php:260 automax_deluxe/form-new.php:254
+msgid "Your Vehicle Information &raquo;"
+msgstr "Informations sur votre véhicule"
+
+#. Text in echo
+#: automax_deluxe/comments.php:49
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération."
+
+#. Text in echo
+#: automax_deluxe/contact-us.php:133
+msgid "Your email was successfully sent. I will be in touch soon."
+msgstr "Votre email a été envoyé avec succès. Je répondrais bientôt."
+
+#. Text in echo
+#: automax_deluxe/cdform.php:270 automax_deluxe/form-new.php:264
+msgid "Your listing title"
+msgstr "Le titre de votre annonce"
+
+#. Text in function
+#: automax_deluxe/single-gtcd.php:135 automax_deluxe/includes/form.php:1
+msgid "Your phone number"
+msgstr "Votre numéro de téléphone"
+
+#. Text in echo
+#: automax_deluxe/cdform.php:250 automax_deluxe/form-new.php:244
+msgid "Your verification code is wrong"
+msgstr "Votre code de vérification est erroné"
+
+#. Text in echo
+#: automax_deluxe/functions/file/includes/import.php:
+msgid "here"
+msgstr "ici"
+
+#. Text in echo
+#: automax_deluxe/functions/meta-boxes-code.php:1429
+msgid "images"
+msgstr "images"
+
+#. Text in function
+#: automax_deluxe/functions/gtcd-post-type.php:1
+msgid "inventory"
+msgstr "inventaire"
+
+#. Text in echo
+#: automax_deluxe/comments.php:77
+msgid "logged in"
+msgstr ""
+
+#. Text in function
+#: automax_deluxe/functions.php:1280
+msgid "more"
+msgstr "plus"
+
+#. Text in echo
+#: automax_deluxe/functions/file/includes/import.php:68
+msgid "pending"
+msgstr "en attente"
+
+#. Text in echo
+#: automax_deluxe/comments.php:77
+msgid "to post a comment."
+msgstr "pour poster un commentaire."
+
+#. Text in function
+#: automax_deluxe/functions/user-post-type.php:1
+msgid "web-listings"
+msgstr "annonces webs"
+
+#. Text in echo
+#: automax_deluxe/cdform.php:214 automax_deluxe/form-new.php:208
+msgid "your vehicle was added successfully and it will be reviewed for publishing, you will receive an e-mail when the listing goes live and we will e-mail a password for you to edit your vehicle listing in our inventory."
+msgstr "votre véhicule a été ajouté avec succès et il sera examiné pour la publication, vous recevrez un e-mail lorsque la liste sera mise en ligne et nous vous enverrons un mot de passe pour vous permettre de modifier votre liste de véhicules dans notre inventaire."
