@@ -201,7 +201,7 @@ Template Name: Inventory
 			<?php wp_reset_postdata(); pagination_nav(); $wp_query = NULL; $wp_query = $temp_query;?>
         </p>
 		</div></div></div>
-		<div class="col-sm-3 col col-sm-pull-9">
+		<div class="col-sm-3 col col-sm-pull-9" id="left-sidebar">
 			<?php if ( ! dynamic_sidebar( 'search' ) ) : ?>
 			<?php endif; ?>
 			<?php if ( ! dynamic_sidebar('sidebar')) : ?>

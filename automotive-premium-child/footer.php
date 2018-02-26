@@ -1,9 +1,11 @@
 <div class="container-fluid footer">
 
 		<div class="row">
-			<div id="footer">
-				<?php if ( ! dynamic_sidebar( 'type' ) ) : endif; ?>
-				<?php if ( ! dynamic_sidebar( 'find-cars' ) ) : endif; ?> 
+			<div class="col-sm-12">
+                <div id="footer">
+                    <?php if ( ! dynamic_sidebar( 'type' ) ) : endif; ?>
+                    <?php if ( ! dynamic_sidebar( 'find-cars' ) ) : endif; ?> 
+                </div>
 			</div>
 			<div id="footer" class="col-sm-12" >
 				<?php if ( ! dynamic_sidebar( 'footer' )) : ?>
