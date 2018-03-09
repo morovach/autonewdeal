@@ -68,7 +68,7 @@ Tags: three-columns, custom-header, custom-menu, featured-images, translation-re
 .arrivals-link .Neuve, .arrivals-link .Vendue, .arrivals-link .Solde{
     display: inline-block;
     position: absolute;
-    top: -3px;
+    top: 0px;
     left: 9px;
     height: 99px;
     width: 99px;
@@ -213,4 +213,31 @@ Tags: three-columns, custom-header, custom-menu, featured-images, translation-re
 
 .call-us{
     padding: 10px 10px 30px 0;
+}
+
+.crunchify-top{
+    display: none;
+    position: fixed;
+    bottom: 10rem;
+    right: 1rem;
+    width: 4.2rem;
+    height: 4.2rem;
+    line-height: 4.2rem;
+    font-size: 2.4rem;
+    text-decoration: none;
+    border-radius: 3.2rem;
+    text-align: center;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+.crunchify-top{
+    border: 2px solid #fff;
+    background: #fff;
+    color: #af2c2e!important;
+}
+.crunchify-top:hover{
+    color: #fff!important;
+    border: 2px solid #af2c2e;
+    background: #af2c2e;
 }

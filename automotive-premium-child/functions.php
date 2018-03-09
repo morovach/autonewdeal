@@ -1,6 +1,9 @@
 <?php
 function my_theme_enqueue_styles() {
         
+    //Enqueue the script for having the arrow to go up
+    wp_enqueue_script('crunchify',get_stylesheet_directory_uri().'/assets/js/child_script.js', array( 'jquery' ),'', false);
+        
     // Enqueue the parent style after bootstrap-css => it will not be overwritten by the bootstrap template css
     wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css', array('bootstrap-css') );
     // Enqueue the child style after it's parent - array( $parent_style ), -

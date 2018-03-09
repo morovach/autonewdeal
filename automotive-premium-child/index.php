@@ -1,13 +1,13 @@
         <?php get_header(); ?>
         <div id="header_home">
-            <?php if ( ! dynamic_sidebar( 'type' ) ) : endif; ?>          
-            <?php if ( ! dynamic_sidebar( 'find-cars' ) ) : endif; ?> 
+            <?php if ( ! dynamic_sidebar( 'type' ) ) : endif; ?>
+            <?php if ( ! dynamic_sidebar( 'find-cars' ) ) : endif; ?>
         </div>
 
         <div class="col-sm-9 home col-sm-push-3" id="content">
-            <?php cps_ajax_search_results(); ?>	
+            <?php cps_ajax_search_results(); ?>
             <?php if ( ! dynamic_sidebar( 'carousel' ) ) : endif; ?>
-            <?php require_once('arrivals.php'); ?>	
+            <?php require_once('arrivals.php'); ?>
         </div>
         <div class="col-sm-3 col col-sm-pull-9" id="left-sidebar">
             <?php if ( ! dynamic_sidebar( 'search' ) ) : endif; ?>
@@ -22,7 +22,7 @@
             <?php echo do_shortcode('[gallery display="owlcolumns" columns="6" gutterwidth="10" link="file" size="small" captions="hide" bottomspace="five" ids="123,120,121,122,117,118,124,119,116,115,113,114"]'); ?>
         </div>
     </div>
-</div>  
+</div>
 
 
 <?php get_footer('home'); ?>

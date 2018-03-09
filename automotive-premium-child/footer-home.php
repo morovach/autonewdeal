@@ -5,6 +5,7 @@
 				<?php if ( ! dynamic_sidebar( 'footer' )) : ?>
 				<?php endif; ?>
 			</div>
+        <a href="#" class="crunchify-top"><i class="fa fa-arrow-up "></i></a>
 		</div>	
 	</div>
 	<div class="container-fluid hidden-xs">

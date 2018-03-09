@@ -196,7 +196,6 @@ Template Name: Inventory
 	<p style="padding:30px;"><?php _e('Sorry, no listings matched your criteria.','language');?></p>
 	<?php endif; ?>
 	<div class="bottom-pagination hideOnSearch">
-		<p><a id="link" href="#top"><?php _e('BACK TO TOP','language');?></a></p>
 		<p class="paging">
 			<?php wp_reset_postdata(); pagination_nav(); $wp_query = NULL; $wp_query = $temp_query;?>
         </p>
