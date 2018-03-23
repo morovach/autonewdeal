@@ -41,64 +41,64 @@
 					<?php endif; ?> 
 					</div>
 					<div class="col-sm-6 hidden-xs" id="phone">
-					<?php if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar('phone') ) :  endif; ?>
-				</div>
-				<?php } else { ?><img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="<?php bloginfo( 'name' ); ?>" /><?php
-} ?>
-			</div>
-		</div>
-	</div>
-<div class="row pad">
-		<div class="col-sm-12 head">
-			<nav id="menu"  class="navbar navbar-default"  role="navigation">
-			<div class="container">
-            	<div class="navbar-header navbar-default">
-					<button class="navbar-toggle menu" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-					</button>
-					<button class="navbar-toggle search" type="button" data-toggle="collapse" data-target=".search-button">
-                    	<span class="sr-only"><?php _e('Toggle Search','language');?></span>
-						<span class="glyphicon glyphicon-search"></span>
-					</button>
-					<a class="logo visible-xs" href="<?php bloginfo('url'); ?>"><?php if ( has_custom_logo() ) : ?>
-					<?php the_custom_logo(); ?></a>
-					<?php else : ?>
-            	<a class="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a>
-						<?php endif; ?>
-					
-					
-			
-					
-					
-					
-					
-				</div>
-            <div class="collapse navbar-collapse bs-navbar-collapse">
-                <?php wp_nav_menu( array( 
-					'menu' 				=> 'Menu', 
-					'theme_location' 	=> 'header-menu',
-					'container' 		=> false,
-					'menu_class'		=>'nav navbar-nav',
-					'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
-					'walker'            => new wp_bootstrap_navwalker(), 
-					) 
-				);?>
+                        <?php if ( !function_exists('dynamic_sidebar')|| !dynamic_sidebar('phone') ) :  endif; ?>
+                    </div>
+                    <?php } else { ?><img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="<?php bloginfo( 'name' ); ?>" /><?php
+                    } ?>
+                </div>
             </div>
-				<div class="collapse navbar-collapse search-button" id="searchbar">	           
-           		</div>
-        	</div>
-    	</nav>
-	</div>
-</div>
-<div class="loading-msg">
-	<div class="loader-hold">
-		<div class="loader" data-loader="circle-side">			
-		</div>
-		<div style="clear: both;"></div>
-	</div>
-	<div class="text"><?php _e('Searching Inventory...','language');?>
-	</div>
-</div>
+        </div>
+    <div class="row pad">
+            <div class="col-sm-12 head">
+                <nav id="menu"  class="navbar navbar-default"  role="navigation">
+                <div class="container">
+                    <div class="navbar-header navbar-default">
+                        <button class="navbar-toggle menu" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        </button>
+                        <button class="navbar-toggle search" type="button" data-toggle="collapse" data-target=".search-button">
+                            <span class="sr-only"><?php _e('Toggle Search','language');?></span>
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                        <a class="logo visible-xs" href="<?php bloginfo('url'); ?>"><?php if ( has_custom_logo() ) : ?>
+                        <?php the_custom_logo(); ?></a>
+                        <?php else : ?>
+                    <a class="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a>
+                            <?php endif; ?>
+                        
+                        
+                
+                        
+                        
+                        
+                        
+                    </div>
+                <div class="collapse navbar-collapse bs-navbar-collapse">
+                    <?php wp_nav_menu( array( 
+                        'menu' 				=> 'Menu', 
+                        'theme_location' 	=> 'header-menu',
+                        'container' 		=> false,
+                        'menu_class'		=>'nav navbar-nav',
+                        'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+                        'walker'            => new wp_bootstrap_navwalker(), 
+                        ) 
+                    );?>
+                </div>
+                    <div class="collapse navbar-collapse search-button" id="searchbar">	           
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="loading-msg">
+        <div class="loader-hold">
+            <div class="loader" data-loader="circle-side">			
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+        <div class="text"><?php _e('Searching Inventory...','language');?>
+        </div>
+    </div>

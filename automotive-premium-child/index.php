@@ -1,5 +1,5 @@
-        <?php get_header(); ?>
-        <?php if ( ! dynamic_sidebar( 'carousel' ) ) : endif; ?>
+        <?php get_header('home'); ?>
+
         <div id="header_home">
             <?php if ( ! dynamic_sidebar( 'type' ) ) : endif; ?>
             <?php if ( ! dynamic_sidebar( 'find-cars' ) ) : endif; ?>
@@ -11,7 +11,9 @@
         </div>
         <div class="col-sm-3 col col-sm-pull-9" id="left-sidebar">
             <?php if ( ! dynamic_sidebar( 'search' ) ) : endif; ?>
-            <?php if ( ! dynamic_sidebar('sidebar')) : endif; ?>
+            <div class= "hidden-xs">
+                <?php if ( ! dynamic_sidebar('sidebar')) : endif; ?>
+            </div>
         </div>
 	</div>
 </div>

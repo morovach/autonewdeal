@@ -335,41 +335,43 @@ class Top_Deals extends WP_Widget {
 		);
 	}
 	public function widget( $args, $instance ) {
-		global $post;
-		$dealstitle = ( ! empty( $instance['deals_title'] ) ) ? $instance['deals_title'] : '';
-		$numdeals = ( ! empty( $instance['num_deals'] ) ) ? $instance['num_deals'] : '';
-		echo $args['before_widget'];
-		echo $args['before_title'];
-		echo  __($dealstitle,'language');
-		echo $args['after_title'];
-		wp_reset_query();	
-		$query = new WP_Query(array(
-							'post_type' => array('gtcd','user_listing'),
-							'meta_key' => '_topdeal',
-							'meta_value' => 'Yes',
-							'posts_per_page' => $numdeals,
-							));
-	if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post();
-	$options = my_get_theme_options();$fields = get_post_meta($post->ID, 'mod1', true);?>
-     <div class="deals">
-	   <a href="<?php the_permalink($post->ID);?>" >
-          <?php gorilla_img ($post->ID,'medium'); ?>
-            <span class="top-deals">
-	      <span class="top-deals-title">
-   <?php if ( isset( $fields[ 'year' ] ) ) {
-			echo $fields['year'];
-		}
-		else { echo '';		}?>  <?php the_title();?> <span class="top-deals-price"><?php  if (is_numeric( $fields['price'])){ echo $options['currency_text']; echo number_format($fields['price']);} else {  echo $fields['price']; } ?> 
-		</span>
-			</span>
-	     </span>
-	   </a>
-        </div>
-		<div clear="both"></div>
-      <?php endwhile; else: ?>
-	      	<img class="img-responsive" src="http://placehold.it/300x180">
-	      <?php endif;
-		echo $args['after_widget'];
+        echo '<div class="hidden-xs">';
+            global $post;
+            $dealstitle = ( ! empty( $instance['deals_title'] ) ) ? $instance['deals_title'] : '';
+            $numdeals = ( ! empty( $instance['num_deals'] ) ) ? $instance['num_deals'] : '';
+            echo $args['before_widget'];
+            echo $args['before_title'];
+            echo  __($dealstitle,'language');
+            echo $args['after_title'];
+            wp_reset_query();	
+            $query = new WP_Query(array(
+                                'post_type' => array('gtcd','user_listing'),
+                                'meta_key' => '_topdeal',
+                                'meta_value' => 'Yes',
+                                'posts_per_page' => $numdeals,
+                                ));
+        if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post();
+        $options = my_get_theme_options();$fields = get_post_meta($post->ID, 'mod1', true);?>
+         <div class="deals">
+           <a href="<?php the_permalink($post->ID);?>" >
+              <?php gorilla_img ($post->ID,'medium'); ?>
+                <span class="top-deals">
+              <span class="top-deals-title">
+       <?php if ( isset( $fields[ 'year' ] ) ) {
+                echo $fields['year'];
+            }
+            else { echo '';		}?>  <?php the_title();?> <span class="top-deals-price"><?php  if (is_numeric( $fields['price'])){ echo $options['currency_text']; echo number_format($fields['price']);} else {  echo $fields['price']; } ?> 
+            </span>
+                </span>
+             </span>
+           </a>
+            </div>
+            <div clear="both"></div>
+          <?php endwhile; else: ?>
+                <img class="img-responsive" src="http://placehold.it/300x180">
+              <?php endif;
+            echo $args['after_widget'];
+        echo '</div>';
 	}
 	public function form( $instance ) {
 		$instance = wp_parse_args( (array) $instance, array( 
@@ -612,7 +614,7 @@ function __construct() {
 			$number = isset( $instance['number'] ) ? apply_filters( 'widget_number', $instance['number'] ) : '';
 		if ( ! empty( $title ) )
 		  ?>
-		  <div class="hideOnSearch featured-bottom">
+		  <div class="hideOnSearch featured-bottom hidden-xs">
 			  <?php  echo $args['before_title'] .'<h3>'.__($title ,'language').'</h3>'. $args['after_title'];?>
 		<div class="product-list-wrapper">
 			<div class="tricol-product-list">
@@ -810,11 +812,11 @@ class GTCD_Widget extends WP_Widget
 			extract($args, EXTR_SKIP);	
 			$title = empty($instance['title']) ? ' ' : apply_filters('widget_title', $instance['title']);	
 			$blogurl = get_bloginfo('template_url')	;
-			echo '<span class="hidden-xs">'.$before_widget;
-			echo '<h3 class="search-title hidden-xs">'.__($title,'language').'</h3>';
+			echo '<span class="">'.$before_widget;
+			echo '<h3 class="search-title">'.__($title,'language').'</h3>';
 			echo $after_title;
 			?>
-    <div class="collapse navbar-collapse  navbar-search" role="navigation">
+    <div class="navbar-collapse  navbar-search" role="navigation">
 	   	<?php cps_search_form();?>  
     </div>
 	<?php		
