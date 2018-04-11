@@ -20,18 +20,18 @@ add_action('template_redirect', 'cps_template_redirect_file');
 	$options = my_get_theme_options();
 	$options['makemodelhide'] = null;
 	$options['featureshide'] = null;
-		$array_taxonomy = array( 'makemodel', 'features','location');	
+		$array_taxonomy = array( 'makemodel', 'features','location');
 		if (($options['makemodelhide']) == 'on')
-		{	  
+		{
 		  $array_taxonomy = array_diff($array_taxonomy, array('makemodel'));
 		}
 		if(($options['state_hide']) == 'on')
-		{	  
+		{
 		  $array_taxonomy = array_diff($array_taxonomy, array('location'));
-		}	
+		}
 if(($options['featureshide']) == 'on')
-		{	  
-		  $array_taxonomy = array_diff($array_taxonomy, array('features'));	
+		{
+		  $array_taxonomy = array_diff($array_taxonomy, array('features'));
 		}
 		$posts_per_page = get_option('posts_per_page');
 		$CPS_OPTIONS = array(
@@ -42,7 +42,7 @@ if(($options['featureshide']) == 'on')
 			'price_range' => 10000,
 			'post_types' => array('gtcd','user_listing')
 		);
-		if(isset($_GET['searchquery'])){	
+		if(isset($_GET['searchquery'])){
 			$search_query = $_GET['searchquery'];
 			$pieces = explode('/',$search_query);
 			$new_parts = array();
@@ -52,51 +52,51 @@ if(($options['featureshide']) == 'on')
 				preg_match('/(?P<key>[^-]+)-(?P<val>.+)/', $piece, $matches);
 				if(isset($matches['key']) && isset($matches['val']))
 				$_GET[$matches['key']] = $matches['val'];
-			}		
-		}	
+			}
+		}
 add_action('wp_ajax_ajax_custom_search', 'cps_ajax_search');
 add_action('wp_ajax_nopriv_ajax_custom_search', 'cps_ajax_search');
 function cps_search_form() {
-			global $CPS_OPTIONS;?>	
-			<form method="post"  id="form_nor" class="advSearch" data-domain="<?php echo get_site_url() ?>" >  
-				<?php						
+			global $CPS_OPTIONS;?>
+			<form method="post"  id="form_nor" class="advSearch" data-domain="<?php echo get_site_url() ?>" >
+				<?php
 				cps_display_taxonomy_search_form($CPS_OPTIONS['taxonomies']);
 				foreach($CPS_OPTIONS['meta_boxes_vars'] as $meta_boxes){
-					cps_display_meta_box_search_form($meta_boxes); } 					
+					cps_display_meta_box_search_form($meta_boxes); }
 				$available_search_types = 2; //1 - both, 2 - only regular, 3 - only instant
-				if ($available_search_types == 1) {} 
+				if ($available_search_types == 1) {}
 				elseif ($available_search_types == 2) { ?>
 					<input type="hidden" name="cps_use_ajax" id="cps_use_ajax" value="1" />
 				<?php } else { ?>
 					<input type="hidden" name="cps_use_ajax" id="cps_use_ajax" value="0" />
 				<?php } ?>
-				 <button type="submit" class="form-button"><i class="fa fa-search"></i> <?php _e('Search','language');?></button>         	                
+				 <button type="submit" class="form-button"><i class="fa fa-search"></i> <?php _e('Search','language');?></button>
 			</form>
 			<?php
-}	
+}
 function cps_load_scripts_and_styles(){
 		global $CPS_OPTIONS;
 }
-function cps_display_meta_box_search_form($meta_boxes){	
+function cps_display_meta_box_search_form($meta_boxes){
 		global $CPS_OPTIONS;
 		if (is_array($meta_boxes)){
-		foreach($meta_boxes as $metaBox){	
+		foreach($meta_boxes as $metaBox){
 			if(isset($metaBox['hide_in_search']) && $metaBox['hide_in_search'] === "on"){
 				continue;
-			}	
-			switch($metaBox['type']){	
+			}
+			switch($metaBox['type']){
 				case 'text':
 				case 'textarea':
-	?>				
+	?>
 					<div class="input_text"><label><?php echo __($metaBox['title'],'language'); ?></label>
-						<input type="text" name="<?php echo $metaBox['name']?>" value="" /></div>					
+						<input type="text" name="<?php echo $metaBox['name']?>" value="" /></div>
 	<?php
-			break;	
-				case 'range':	
+			break;
+				case 'range':
 					$options = my_get_theme_options();
 					$Range = cps_get_range('_'.$metaBox['name']);
 					if(!isset($Range->min) || !isset($Range->max)) return;
-					$formatted = number_format($Range->max);		
+					$formatted = number_format($Range->max);
 	?>
 	<script type="text/javascript">
 function addCommas(nStr)
@@ -139,26 +139,26 @@ function numberWithCommas(x) {
 						<input type="checkbox" name="<?php echo $metaBox['name']?>" value="<?php echo $metaBox['options'][1] ?>" />
 					</div>
 	<?php
-				break;	
-				case 'radio':							
+				break;
+				case 'radio':
 					echo '<div class="radio">';
 					foreach($metaBox['options'] as $radio_value) {
 						echo '<input type="radio" name="'.$metaBox['name'].'" value="'.$radio_value.'" /> <span class="rlabel">'.$radio_value.'</span>';
 					}
-					echo '</div>';	
-				break;	
+					echo '</div>';
+				break;
 				case 'dropdown':
 					echo '<div class="drop">';
 					echo '<select  class="'.$metaBox['class'].'" name="'.$metaBox['name'].'">';
-					echo '<option value="">'.__($metaBox['title'],'language').'</option>';	
+					echo '<option value="">'.__($metaBox['title'],'language').'</option>';
 					if (is_array($metaBox['options'])) {
 					foreach($metaBox['options'] as $dropdown_key => $dropdown_value) {
 							echo '<option class="level-0" value="'.$dropdown_value.'">'.__($dropdown_value,'language').'</option>';
 					}
 }
-					echo '</select></div>';	
+					echo '</select></div>';
 				break;
-			}	
+			}
 		}
 	}
 }
@@ -189,19 +189,19 @@ function cps_ajax_search($meta_boxes){
 <div class=" hideOnSearch">
 <?php wp_reset_postdata();?>
 <?php $displayed = array();
-	    if(!empty($posts)): foreach($posts as $post): 
+	    if(!empty($posts)): foreach($posts as $post):
 		if(in_array($post->ID,$displayed)):
 		continue;
 		else:
 		$displayed[] = $post->ID;
 		endif;
 		?>
-<?php global $options;$fields;$options2;$options3;											
+<?php global $options;$fields;$options2;$options3;
 	  $fields = get_post_meta($post->ID, 'mod1', true);
 	  $fields_2 = get_post_meta($post->ID, 'mod2', true);
-	  $options = my_get_theme_options(); ?>			
+	  $options = my_get_theme_options(); ?>
 <?php $blogurl = get_bloginfo('template_url'); ?>
-<?php $surl = get_bloginfo('url'); ?>	
+<?php $surl = get_bloginfo('url'); ?>
 <div class="result-car"> <!-- result car -->
 	<div class="row">
 <a class="result-car-link" href="<?php echo get_permalink($post->ID);?>" rel="bookmark">
@@ -227,7 +227,7 @@ if ( 'user_listing' == get_post_type($post->ID) ) {
 			} ?>
 <?php
 } elseif ( 'gtcd' == get_post_type($post->ID) ) {
-	
+
 	echo '<div class="col-sm-5 col-results">';
 	echo gorilla_img ($post->ID,'large');
     if (!empty($fields['statustag']) && $fields['statustag'] != 'None' ){ ?>
@@ -249,7 +249,7 @@ if ( 'user_listing' == get_post_type($post->ID) ) {
 													      }
 													   }
 													}
-													}	
+													}
 													if ( ! isset($sorted_terms[0])) {
 													$sorted_terms[0] = null;
 													} else {
@@ -270,11 +270,11 @@ if ( 'user_listing' == get_post_type($post->ID) ) {
 													if ( ! isset($sorted_terms_child[1])) {
 													$sorted_terms_child[1] = null;
 													} else {
-													echo $sorted_terms_child[1]->name;} ?></p>	
+													echo $sorted_terms_child[1]->name;} ?></p>
 	<p class="miles-style"><?php if ( $fields['miles']){ echo $fields['miles'].' '.$options['miles_text'];} elseif ($fields['miles'] == '0' ){ echo _e('0','language').' '.$options['miles_text'];} else {echo '';}  ?></p>
 	<p class="car-info"><?php if (isset( $fields['transmission'])){ echo $fields['transmission'];}else {  echo ''; };?>
 	<?php if (isset( $fields_2['cylinders'])){ echo ', '.$fields_2['cylinders'].' '.$options['number_cylinders_text'].', ';}else {  echo ''; };?><?php if (isset( $fields['exterior'])){ echo '<span class="mini-hide">'.$fields['exterior'].'</span> - ';;}else {  echo ''; };?><?php if (isset( $fields['interior'])){ echo '<span class="mini-hide">'.$fields['interior'].'</span>';}else {  echo ''; };?><?php if (isset( $fields['epamileage'])){ echo ', <span class="mini-hide">'.$fields['epamileage'].'</span>';}else {  echo ''; };?></p>
-	<p class="title-tag"><?php echo $post->post_title;?></p>	
+	<p class="title-tag"><?php echo $post->post_title;?></p>
 	<?php $terms = get_the_term_list( $post->ID, 'features', '<ul class="feat-style"><li>', ',</li><li>', '</li></ul>');
 		  $max_terms = 5;
 		  $terms_array = explode( ',', $terms, $max_terms + 1 );
@@ -286,12 +286,12 @@ if ( 'user_listing' == get_post_type($post->ID) ) {
 			<div class="inventory-right">
 				<p class="price-style results"><?php  if (is_numeric( $fields['price'])){ echo $options['currency_text']; echo number_format($fields['price']);} else {  echo $fields['price']; } ?> </p>
 					<?php	if (!empty($fields['stock'])){ echo '<p class="stock-inventory">'.$options['stock_text'].' # : '.$fields['stock'].'</p>';}else {  echo ''; }?>
-					<p class="location-tag">								
+					<p class="location-tag">
 					<?php $locations_child = get_the_terms($post->ID,'location');
 													$sorted_locations_child = array();
 													$find_child = 0;
 													for( $i = 0; $i < sizeof($locations_child); ++$i) {
-														
+
 														if (is_array($locations_child))
 														{
 													   foreach ($locations_child as $location_child) {
@@ -323,28 +323,28 @@ if ( 'user_listing' == get_post_type($post->ID) ) {
 													if ( ! isset($sorted_locations[0]->name)) {
 													$sorted_locations[0] = null;
 													} else {
-													echo $sorted_locations[0]->name; } 
-													?>									
+													echo $sorted_locations[0]->name; }
+													?>
 				</p>
 				<p><a class="btn btn-primary" href="<?php echo get_permalink($post->ID);?>"><?php _e('View Details','language');?></a></p>
 		</div>
-	</div>    
-          <div style="clear:both;"></div>               
+	</div>
+          <div style="clear:both;"></div>
 	</a>
 	</div>
-</div> <!-- result car ends -->  
+</div> <!-- result car ends -->
 <?php endforeach; else: ?>
 	<p style="padding:30px;" class="not-found"><?php _e('Sorry, no listings matched your criteria.','language');?></p>
 <?php endif; ?>
 			<div class="bottom-pagination"> <!-- Pagination starts -->
-                    	<p><a id="link" href="#top"><?php _e('BACK TO TOP','language');?></a></p>
+
                     	<p class="paging">
                         	<?php cps_show_pagination() ?>
                         </p>
                         <div style="clear: both"></div>
-                  </div>  <!-- Pagination ends -->	
+                  </div>  <!-- Pagination ends -->
            		</div>
-	<?php	
+	<?php
 	exit;
 }
 function cps_breadcrumbs()
@@ -364,7 +364,7 @@ function cps_breadcrumbs()
 					$link .= $i ? '/' : '';
 					$child_link = $link . $taxonomy . '-' . $_GET[$taxonomy];
 					$ready_link = $child_link . '/';
-					if (isset($_GET['cps_use_ajax']) && $_GET['cps_use_ajax']) 
+					if (isset($_GET['cps_use_ajax']) && $_GET['cps_use_ajax'])
 					{
 						$ready_link =  'javascript:manual_hashchange(\'' . urlencode($child_link) . '/\');';
 					}
@@ -374,7 +374,7 @@ function cps_breadcrumbs()
 					$i++;
 				}
 			}
-		}		
+		}
 		foreach($CPS_OPTIONS['meta_boxes_vars'] as $meta_boxes)
 		{
 			foreach($meta_boxes as $metaBox)
@@ -385,7 +385,7 @@ function cps_breadcrumbs()
 					$link .= $i ? '/' : '';
 					$link .= $metaBox['name'].'-'.$_GET[$metaBox['name']];
 					$ready_link = $link . '/';
-					if (isset($_GET['cps_use_ajax']) && $_GET['cps_use_ajax']) 
+					if (isset($_GET['cps_use_ajax']) && $_GET['cps_use_ajax'])
 					{
 						$ready_link =  'javascript:manual_hashchange(\'' . urlencode($link) . '/\');';
 					}
@@ -394,17 +394,17 @@ function cps_breadcrumbs()
 				}
 			}
 		}
-	}	
+	}
 function getAllParentTermsLinks($parent_term , $link, $taxonomy, $ins_par)
 	{
 		if($parent_term)
 		{
-			$parent_link = $link . $taxonomy . '-' . $parent_term->name;										
+			$parent_link = $link . $taxonomy . '-' . $parent_term->name;
 			$ready_parent_link = $parent_link . '/';
-			if (isset($_GET['cps_use_ajax']) && $_GET['cps_use_ajax']) 
+			if (isset($_GET['cps_use_ajax']) && $_GET['cps_use_ajax'])
 			{
 				$ready_parent_link =  'javascript:manual_hashchange(\'' . urlencode($parent_link) . '/\');';
-			}	
+			}
 			$ins_par = '<a href="' . $ready_parent_link . '">' . $parent_term->name . '</a>->' . $ins_par;
 			$another_parent_term = get_term_by('id', $parent_term->parent, $taxonomy);
 			return getAllParentTermsLinks($another_parent_term , $link, $taxonomy, $ins_par);
@@ -437,7 +437,7 @@ function cps_get_current_link(){
 					$i++;
 				}
 			}
-		}	
+		}
 		$link .= $i === 0 ? '' : '/';
 		if(isset($_GET['order'])){
 
@@ -465,21 +465,21 @@ function cps_show_pagination(){
 			$cur_class = '';
 			if(isset($_GET['page']) && $_GET['page'] == $i ){
 			$cur_class = 'current';
-			}	    
+			}
 	    if (isset($_GET['cps_use_ajax']) && $_GET['cps_use_ajax']) {
 		$ready_link = 'javascript:manual_hashchange("' . urlencode($link) . 'page-' . $i . '/")';
 	    } else {
 		$ready_link = $link . "page-$i/";
 
-	    }		
+	    }
 			echo "<a href='{$ready_link}' class='convertUrl $cur_class'>$i</a>";
 
 		}
 	}
 function cps_sort_by($field){
-	  global $CPS_OPTIONS;	  
+	  global $CPS_OPTIONS;
 	  $order_asc = null;
-	  $order_desc = null;	
+	  $order_desc = null;
 	  $bOrderAsc = true;
 	  $link = isset($_GET['cps_use_ajax']) && $_GET['cps_use_ajax'] ? '#search/' : get_site_url().'/search/';
 	  $i = 0;
@@ -492,12 +492,12 @@ function cps_sort_by($field){
 		    $i++;
 		  	}
 		}
-	}	
+	}
 	  $cur_meta_box = array();
 	  foreach($CPS_OPTIONS['meta_boxes_vars'] as $meta_boxes){
 	    if(isset($meta_boxes[$field]['name'])){
 		$cur_meta_box = $meta_boxes;
-	    }	
+	    }
 	if (is_array($meta_boxes)){
 	    foreach($meta_boxes as $metaBox){
 		if(isset($_GET[$metaBox['name']]) && (is_array($_GET[$metaBox['name']]) || trim($_GET[$metaBox['name']]) != '')) {
@@ -512,7 +512,7 @@ function cps_sort_by($field){
 		  }
 		  $i++;
 			}
-	 	}	
+	 	}
 	 }
 }
 	  $link .= $i ? '/' : '';
@@ -522,7 +522,7 @@ function cps_sort_by($field){
 	    $bOrderAsc = false;
 	  }
 	  if (isset($_GET['order']) && $_GET['order'] == $cur_meta_box[$field]['name']) {
-	  }	
+	  }
 	  $link .= '/';
 	  if (isset($_GET['cps_use_ajax']) && $_GET['cps_use_ajax']) {
 	  $page_num = isset($_GET['page']) ? $_GET['page'] : 1;
@@ -531,11 +531,11 @@ function cps_sort_by($field){
 	  }
 	  echo "<div class='sort_each_item'><a  href=\"" . $link . "\"> ".ucfirst($cur_meta_box [$field]['name'])."</a>";
 	  echo "<div class='sorting'>";
-	  echo "<a href=\"" . $link . "\">".($bOrderAsc ? $order_asc : $order_desc)."</a>";	 
+	  echo "<a href=\"" . $link . "\">".($bOrderAsc ? $order_asc : $order_desc)."</a>";
 	  echo "</div></div>";
 	}
-function cps_get_terms($taxonomy){	
-		global $wpdb;	
+function cps_get_terms($taxonomy){
+		global $wpdb;
 		$q = "
 			SELECT
 				term.name
@@ -544,7 +544,7 @@ function cps_get_terms($taxonomy){
 				WHERE taxonomy = '$taxonomy'
 		";
 		$result = $wpdb->get_col($q);
-		return $result;	
+		return $result;
 	}
 function cps_get_range($custom_field_key){
 		global $wpdb;
@@ -555,10 +555,10 @@ function cps_get_range($custom_field_key){
 			FROM {$wpdb->postmeta} pm
 			WHERE pm.meta_key = '$custom_field_key'
 		";
-		$result = $wpdb->get_row($q);	
+		$result = $wpdb->get_row($q);
 		return $result;
 	}
-function cps_display_taxonomy_search_form($taxonomy_names){	
+function cps_display_taxonomy_search_form($taxonomy_names){
 $options = my_get_theme_options();
 if (isset($options['state_hide']) && $options['state_hide'] == "off") {
 ?>
@@ -576,28 +576,28 @@ if (isset($options['state_hide']) && $options['state_hide'] == "off") {
             $.ajax
             (
             {
-                url:"<?php bloginfo('wpurl'); ?>/wp-admin/admin-ajax.php", 
+                url:"<?php bloginfo('wpurl'); ?>/wp-admin/admin-ajax.php",
                 type:'POST',
                 data:'action=call_location&main_catid=' + $mainCat,
                 success:function(results)
                 {
                     options = $(results);
 if(options.length > 1){
-$("#city").removeAttr("disabled"); 
+$("#city").removeAttr("disabled");
 } else {
 if(!$("#city").is(':disabled')){
-$("#city").attr("disabled", "disabled"); 
+$("#city").attr("disabled", "disabled");
 }
 }
-$("#city").append(results); 
+$("#city").append(results);
 $("#city").selectBox('destroy');
-$("#city").selectBox();    
+$("#city").selectBox();
                 }
             }
-        ); 
+        );
         });
-    }); 
-</script>             
+    });
+</script>
 <?php
  wp_dropdown_categories(array(
  	'orderby' => 'name',
@@ -617,15 +617,15 @@ $("#city").selectBox();
             ));?>
 
 <select name="location" id="city"  class="dropdown" disabled="disabled"><option value=""><?php _e('City (Select State First)','language');?></option></select>
-<?php 
+<?php
 } else { echo '';}
 ?>
-<?php 
+<?php
 if (isset($options['make_hide']) && $options['make_hide'] == "off") {
 ?>
 <script type="text/javascript">
     $(function()
-    {      
+    {
         $('#makemodel').change(function()
         {
             var $mainCat=$('#makemodel :selected').attr('data-value');
@@ -636,28 +636,28 @@ if (isset($options['make_hide']) && $options['make_hide'] == "off") {
             $.ajax
             (
             {
-                url:"<?php bloginfo('wpurl'); ?>/wp-admin/admin-ajax.php", 
+                url:"<?php bloginfo('wpurl'); ?>/wp-admin/admin-ajax.php",
                 type:'POST',
                 data:'action=name_call&main_catid=' + $mainCat,
                 success:function(results)
                 {
                     options = $(results);
 if(options.length > 1){
-$("#model").removeAttr("disabled"); 
+$("#model").removeAttr("disabled");
 } else {
 if(!$("#model").is(':disabled')){
-$("#model").attr("disabled", "disabled"); 
+$("#model").attr("disabled", "disabled");
 }
 }
-$("#model").append(results); 
+$("#model").append(results);
 $("#model").selectBox('destroy');
-$("#model").selectBox();                     
+$("#model").selectBox();
                 }
             }
-        ); 
+        );
         });
-    }); 
-</script>             
+    });
+</script>
 <?php
  wp_dropdown_categories(array(
 
@@ -677,10 +677,10 @@ $("#model").selectBox();
                 'walker' => new Walker_CategoryDropdown_Custom() ,
             ));?>
 <select name="makemodel" id="model"  class="dropdown" disabled="disabled"><option value=""><?php _e('Model (Select Make First)','language');?></option></select>
-<?php 
+<?php
 } else { echo '';}
 ?>
-<?php }		
+<?php }
 function generate_dropdown_options($hTerm)
 		{
 			if(is_array($hTerm))
@@ -693,10 +693,10 @@ function generate_dropdown_options($hTerm)
 				echo '<option value="'.trim($hTerm->name).'">&raquo;'.$hTerm->title.'</option>';
 			}
 		}
-	$RES_COUNT = 0;	
+	$RES_COUNT = 0;
 function cps_search_posts(){
 		global $CPS_OPTIONS;
-		global $wpdb;	
+		global $wpdb;
 		$join  = '';
 		$where = '';
 		$order = '';
@@ -706,7 +706,7 @@ function cps_search_posts(){
 		if (is_array($meta_boxes)){
 		foreach($meta_boxes as $metaBox){
 				$mb_name = $metaBox['name'];
-				if(isset($_GET[$mb_name]) && trim($_GET[$mb_name]) != ''){	
+				if(isset($_GET[$mb_name]) && trim($_GET[$mb_name]) != ''){
 				$join .= " JOIN $wpdb->postmeta meta$i
 				ON meta$i.post_id = p.ID
 				AND meta$i.meta_key = '_$mb_name' ";
@@ -715,7 +715,7 @@ function cps_search_posts(){
 				$where .= " AND meta$i.meta_value BETWEEN $pieces[0]+0 AND $pieces[1]+0 ";
 				} else {
 				$where .= " AND meta$i.meta_value = '{$_GET[$mb_name]}' ";
-				}	
+				}
 				$joinedMeta["meta$i"] = $mb_name;
 				if(isset($_GET["order"])){
 				if($_GET["order"] === $mb_name){
@@ -742,7 +742,7 @@ function cps_search_posts(){
 				}
 			}
 		}
-	} 		
+	}
 }
 			$is_search_by_tax = false;
 			if( isset($CPS_OPTIONS['taxonomies']) && !empty($CPS_OPTIONS['taxonomies']) ){
@@ -770,9 +770,9 @@ function cps_search_posts(){
 			if(isset($asc)){
 			$asc = isset($_GET["orderdirection"]) ? $_GET["orderdirection"] : 'DESC';
 			}
-			$in_posts = implode("','", $CPS_OPTIONS['post_types']);		
+			$in_posts = implode("','", $CPS_OPTIONS['post_types']);
 			global $wpdb;
-			$main_query = "SELECT p.* FROM {$wpdb->base_prefix}posts p WHERE p.post_status = 'publish' AND p.post_type IN ('$in_posts') ORDER BY p.ID DESC LIMIT $from, $count"; 
+			$main_query = "SELECT p.* FROM {$wpdb->base_prefix}posts p WHERE p.post_status = 'publish' AND p.post_type IN ('$in_posts') ORDER BY p.ID DESC LIMIT $from, $count";
 			$sub_query = "SELECT * FROM ($main_query) p $join $where $order_by";
 			if($join && $order_by){
 			$new_query=$sub_query;
@@ -785,11 +785,11 @@ function cps_search_posts(){
             SELECT
             p.*
             FROM {$wpdb->base_prefix}posts p
-            INNER 
-			JOIN {$wpdb->base_prefix}postmeta pm 
+            INNER
+			JOIN {$wpdb->base_prefix}postmeta pm
 			ON pm.post_id = p.ID
             $join
-            WHERE p.post_status = 'publish' AND pm.meta_key = '_year' 
+            WHERE p.post_status = 'publish' AND pm.meta_key = '_year'
             -- Only custom posts:
             AND p.post_type IN ('$in_posts')
             $where
@@ -804,7 +804,7 @@ function cps_search_posts(){
             WHERE p.post_status = 'publish'
              -- Only custom posts:
             AND p.post_type IN ('$in_posts')
-            $where	
+            $where
 			");
 			$old_style=2;
 			if($old_style >= 1){

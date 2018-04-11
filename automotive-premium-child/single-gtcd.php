@@ -34,15 +34,16 @@
  							<?php _e('Overview','language');?>
           				</a>
 		  			</li>
+                    <!--
 		  			<li><a href="#features" role="tab" data-toggle="tab">
-		  					<?php _e('Features','language');?>
+		  					</?php _e('Features','language');?>
           				</a>
 		  			</li>
 		  			<li>
 		  				<a href="#video" role="tab" data-toggle="tab">
-		  					<?php _e('Video','language');?>
+		  					</?php _e('Video','language');?>
           				</a>
-		  			</li>
+		  			</li> -->
 		  			<li>
 		  				<a href="#contact" role="tab" data-toggle="tab">
 		  					<?php _e('Contact Us','language');?>
@@ -135,7 +136,7 @@ $video_id = get_post_meta($post->ID, 'video_meta_box_videoid', true);		if(($vide
 		</h3>
 		<div class="buttons-action">
 		
-			<a  type="button" class="btn btn-default btn-lg offer" href="mailto:<?php echo get_the_author_meta( 'user_email' );?>?subject=<?php _e('Vehicle information request','language');?>&body=<?php _e('I would like to request more information about your','language');?> <?php echo  $fields['year'].' '.$sorted_terms[0]->name.' '.$sorted_terms_child[1]->name.__(' with Stock Number #','language'). $fields['stock'];?>">
+			<a  type="button" class="btn btn-default btn-lg offer" href="/nous-contacter/">
 					<i class="fa fa-envelope-o"></i> <?php _e('Request Information','language');?>
 			</a>
 		</div>

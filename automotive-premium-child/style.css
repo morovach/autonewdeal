@@ -261,10 +261,12 @@ Tags: three-columns, custom-header, custom-menu, featured-images, translation-re
   background: black;
   z-index: 9000;
   width: 100%;
+  margin-bottom: 20px;
 }
 .sticky {
   position: fixed;
   top: 0;
+  /* margin-bottom: 0px!important; */
 }
 
 .nav>li nav#menu a {
@@ -290,4 +292,13 @@ Tags: three-columns, custom-header, custom-menu, featured-images, translation-re
         color: #fff;
         text-align: center;
     }
+}
+
+
+.tricol-product-list .col-sm-4{
+    margin-top: -18px;
+}
+
+.blog-post h1{
+    text-align: center
 }

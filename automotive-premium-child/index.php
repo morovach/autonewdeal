@@ -18,14 +18,15 @@
 	</div>
 </div>
 
+<!--
 <div class="container-fluid hidden-xs">
     <div class="full-width find-wrapper">
         <div class="col-sm-12" id="footer-gallery">
-            <?php echo do_shortcode('[gallery display="owlcolumns" columns="6" gutterwidth="10" link="file" size="small" captions="hide" bottomspace="five" ids="123,120,121,122,117,118,124,119,116,115,113,114"]'); ?>
+            <?php //echo do_shortcode('[gallery display="owlcolumns" columns="6" gutterwidth="10" link="file" size="small" captions="hide" bottomspace="five" ids="123,120,121,122,117,118,124,119,116,115,113,114"]'); ?>
         </div>
     </div>
 </div>
-
+-->
 
 <?php get_footer('home'); ?>
 

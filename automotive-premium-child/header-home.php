@@ -29,9 +29,11 @@
 </head>
 <body <?php body_class(); ?>>
 
+    <!--googleoff: all-->
     <div class = "home-carousel" id="home_slider">
         <?php echo do_shortcode('[rev_slider alias="slider_home"]'); ?>
     </div>
+    <!--googleon: all-->
 
     <div id="header_home_sticky">
         <div class="container">

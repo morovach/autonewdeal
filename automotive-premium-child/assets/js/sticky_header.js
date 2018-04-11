@@ -1,18 +1,16 @@
 $(window).scroll(function() {
 
-// alert($('#header_home_sticky').offsetTop);
+//Transform the header into sticky when it is at the top of the screen.
+//Undo the transformation when the user scrolls above the initial position of the header
 if ($(this).scrollTop() >  $('#home_slider').outerHeight(true)){
+    //All the rest has to be moved when the header becomes sticky.
+    //Otherwize it gives impression that all the website goes up.
     $height_offset= $('#header_home_sticky').outerHeight(true);
     document.getElementById("home_slider").style.marginTop = $height_offset+"px";
 
     $('#header_home_sticky').addClass("sticky-header");
     $('#header_home_sticky').addClass("sticky");
 
-
-    // $sticky_width= $('#header_home_sticky').outerWidth(true);
-    // $window_width=window.innerWidth;
-    // $marging_left=($window_width-$sticky_width)/2;
-    // document.getElementById("header_home_sticky").style.marginLeft = $marging_left+"px";
 }
 else{
     if  ($(this).scrollTop() <  ($('#home_slider').outerHeight(true)-$('#header_home_sticky').outerHeight(true))){

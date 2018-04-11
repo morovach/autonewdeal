@@ -1,3 +1,10 @@
+- Mettre le site en https:
+    1) Mettre le certificat SSL pour le site en question dans OVH.com
+    2) Remplacer le fichier .htaccess par un fichier qui fait la redirection
+
+- Google Search console / analytics
+    https://www.google.com/webmasters/tools/home?hl=fr : créer une nouvelle propriété
+
 - Ajouter un shortcode en php:
     <?php echo do_shortcode('[contact-form-7 id="68" title="Formulaire de contact 1"]');?>
     Cette fonction permet de mettre un shortcode vers un formulaire de contact par exemple.
@@ -41,8 +48,7 @@
         ?>
 
 - Les bandeaux:
-
-Les bandeaux sont insérés dans arrivals.php
+    Les bandeaux sont insérés dans arrivals.php
     <div class="status-tag"><?php echo $fields['statustag'];?></div><?php } else {echo '';}?>
     Cette ligne permet d'assigner une class qui prend la valeur status tag.
     Ainsi, si la voiture a "new", elle aura comme attribut: <div class ="new">.
@@ -80,7 +86,6 @@ Les bandeaux sont insérés dans arrivals.php
     Solde
     Vendue
 
-
 - Créer un widget ou une sidebar:
     https://codex.wordpress.org/Widgets_API
     Pour créer un widget:
@@ -91,10 +96,8 @@ Les bandeaux sont insérés dans arrivals.php
                         parent::__construct( 'find_by_type', 'Find Vehicles by Type' );
                 }
     Puis il faut déclarer les fonction widget / update et form
-
     Il faut enfin enregister la classe du widget
     register_widget( 'Foo_Widget' ); pour pouvoir s'en servir dans les "sidebars" ou ailleurs.
-
 
 -Changer Les images pour les catégories de voiture:
     Pour cela il faut aller dans "find-car.php" et il faut:
@@ -102,4 +105,38 @@ Les bandeaux sont insérés dans arrivals.php
     2) Mettre la nouvelle image dans /assets/images/product-images/
     3) Dans les options du thème dans wordpress (dans "traduction" aujourd'hui), il faut aller dans
     Type de véhicule:	"option N" et remplacer par le meme nom que celui choisi dans find-car.php pour le nom de l'image.
-    (En gros si on met une image de camionnette dans option6, il faut que dans option6 on mette bien le nom camionnette)
+    (En gros si on met une image de camionnette dans option6, il faut que dans op
+
+- Créer un portfolio:
+    1) Pour faire un joli portfolio, j'ai installer le pluggin:  Galleries by Angie Makes
+    2) Dans la page en question, il faut ensuite ajouter le shortcode: <?php echo do_shortcode('[gallery display="owlcolumns" columns="6" gutterwidth="10" link="file" size="small" captions="hide" bottomspace="five" ids="123,120,121,122,117,118,124,119,116,115,113,114"]'); ?>
+    Note) Pour connaître l'ID des photos à ajouter sans se déranger, le mieux est de créer un portfolio directement dans une nouvelle page / un article à la main dans wordpress avec l'interface graphique.
+        Quand on est dans un article, il faut faire "ajouter média" et là il propose photo ou portfolio. On peut ensuite ajouter les photo et si on va dans le mode "texte", on peut voir l'ID de ces photos
+
+- Ajouter une fleche "retour vers le haut":
+    1) Ajouter dans le footer la ligne <a href="#" class="crunchify-top"><i class="fa fa-arrow-up "></i></a>
+    2) Ajouter un fichier javascript avec les lignes
+                	jQuery(document).ready(function() {
+                        var offset = 235;
+                        var duration = 500;
+                        jQuery(window).scroll(function() {
+                            if (jQuery(this).scrollTop() > offset) {
+                                jQuery('.crunchify-top').fadeIn(duration);
+                            } else {
+                                jQuery('.crunchify-top').fadeOut(duration);
+                            }
+                        });
+
+                        jQuery('.crunchify-top').click(function(event) {
+                            event.preventDefault();
+                            jQuery('html, body').animate({scrollTop: 0}, duration);
+                            return false;
+                        })
+                    });
+    3) Enqueue le fichier javascript, dans functions.php, ajouter:
+        //Enqueue the script for having the arrow to go up
+        wp_enqueue_script('crunchify',get_stylesheet_directory_uri().'/assets/js/child_script.js', array( 'jquery' ),'', false);
+
+-- Créer la police du logo:
+    Le logo a come police segoe UI (bold ou pas).
+    Et il faut ensuite mettre une distance de -9 entre les lettres. (letter-spacing dans gimp).

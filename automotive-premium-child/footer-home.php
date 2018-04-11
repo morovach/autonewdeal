@@ -14,6 +14,8 @@
 				<div class="bottom-bar">
 					<p>Auto-new-deal, tous droits réservés
 					</p>
+                    <p>Design done by <a href="mailto:<?php echo antispambot("leroidpeon@hotmail.com"); ?>?Subject=Mail%20from%autonewdeal%20" target="_top">Jérémie Cohen - <?php echo antispambot("leroidpeon@hotmail.com"); ?></a></p>
+                    
 				</div>
 			</div>
 			
